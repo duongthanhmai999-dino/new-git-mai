@@ -82,6 +82,7 @@
     align-items: center;
     justify-content: center;
     transition: box-shadow 0.3s ease;
+    text-decoration: none;
 }
 
 .joinPlatformBtnSignup:hover {
@@ -104,6 +105,7 @@
     align-items: center;
     justify-content: center;
     transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    text-decoration: none;
 }
 
 .joinPlatformBtnLogin:hover {

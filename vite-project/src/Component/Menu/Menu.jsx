@@ -1,6 +1,15 @@
 import './Menu.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
+import { useAuth } from '../../context/AuthContext';
+
 const Menu = () => {
+    const { user, logout } = useAuth();
+    const navigate = useNavigate();
+
+    const handleLogout = () => {
+        logout();
+        navigate('/');
+    };
     return (
         <div className='menu'>
             <div className="menu-logo">
@@ -63,10 +72,17 @@ const Menu = () => {
                         <i className="bi bi-gear menu-icon"></i>
                         Setting
                     </a>
-                    <a href="#" className="menu-item logout">
-                        <i className="bi bi-box-arrow-right menu-icon"></i>
-                        Logout
-                    </a>
+                    {user ? (
+                        <button type="button" onClick={handleLogout} className="menu-item logout menu-item-btn">
+                            <i className="bi bi-box-arrow-right menu-icon"></i>
+                            Logout ({user.name})
+                        </button>
+                    ) : (
+                        <NavLink to="/login" className="menu-item">
+                            <i className="bi bi-box-arrow-in-right menu-icon"></i>
+                            Login
+                        </NavLink>
+                    )}
                 </div>
             </nav>
         </div>
