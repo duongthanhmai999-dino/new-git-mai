@@ -1,0 +1,312 @@
+.trending-songs {
+    padding: 0px 24px 20px;
+}
+.trending-title-block {
+    margin-bottom: 24px;
+}
+
+.trending-title {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.trending-title-grey {
+    color: #FFFFFF;
+}
+
+.trending-title-purple {
+    color: #EE10B0;
+}
+
+.trending-table {
+    margin-top: 20px;
+    max-width: 1061px;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.trending-table::-webkit-scrollbar {
+    display: none;
+}
+
+.trending-header-row {
+    display: flex;
+    align-items: center;
+    padding-bottom: 3px;
+}
+
+.trending-span {
+    width: 40px;
+    min-width: 40px;
+    flex-shrink: 0;
+}
+
+.trending-table-header {
+    display: grid;
+    grid-template-columns: 320px 95px minmax(129px, 36fr) 55px;
+    align-items: center;
+    gap: 16px;
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    flex: 1;
+    width: 100%;
+    max-width: 1015px;
+    box-sizing: border-box;
+}
+
+.trending-table-header .trending-col-empty {
+    min-width: 0;
+}
+
+.trending-table-header .trending-col:nth-child(3) {
+    text-align: center;
+}
+
+.trending-col {
+    min-width: 111px;
+    margin-left: -9px;
+}
+
+.trending-table-body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.trending-row-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.trending-rank {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0;
+    min-width: 40px;
+    flex-shrink: 0;
+    color: #FFFFFF;
+}
+
+.trending-row {
+    display: grid;
+    grid-template-columns: 320px 95px minmax(129px, 36fr) 55px;
+    align-items: center;
+    gap: 16px;
+    height: 60px;
+    width: 100%;
+    max-width: 1015px;
+    box-sizing: border-box;
+    background-color: #1E1E1E;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.trending-song-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+}
+
+.trending-album-art {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.trending-album-art img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.trending-info {
+    flex: 1;
+    min-width: 0;
+    padding: 10px;
+}
+
+.trending-song-title {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.trending-artist {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #9ca3af;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 9px;
+}
+
+.trending-release {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 15px;
+    padding-left: 18px;
+    text-align: center;
+    font-weight: 400;
+    color: #9ca3af;
+    min-width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.trending-album {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #9ca3af;
+    text-align: center;
+    min-width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.trending-meta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    padding-right: 18px;
+}
+
+.trending-heart {
+    font-size: 17px;
+    color: #EE10B0;
+    cursor: pointer;
+}
+
+.trending-duration {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #9ca3af;
+    min-width: 36px;
+}
+
+.trending-view-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    max-width: 216px;
+    margin: 15px;
+    margin-left: 440px;
+    background-color: #1E1E1E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    height: 60px;
+}
+
+.trending-view-all i {
+    font-size: 18px;
+    color: #fff;
+}
+
+.trending-view-all:hover {
+    background-color: #2a2a2a;
+}
+
+@media (max-width: 992px) {
+    .trending-header-row {
+        display: none;
+    }
+
+    .trending-row-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .trending-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        width: 100%;
+        height: auto;
+    }
+
+    .trending-release,
+    .trending-album {
+        min-width: auto;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .trending-view-all {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .trending-songs {
+        padding: 16px 12px 32px;
+    }
+
+    .trending-view-all {
+        margin-left: auto;
+    }
+
+    .trending-title {
+        font-size: 22px;
+    }
+
+    .trending-row {
+        padding: 10px 12px;
+        gap: 12px;
+    }
+
+    .trending-rank {
+        font-size: 18px;
+        min-width: 32px;
+    }
+
+    .trending-album-art {
+        width: 40px;
+        height: 40px;
+    }
+
+    .trending-song-title {
+        font-size: 16px;
+    }
+
+    .trending-artist {
+        font-size: 11px;
+    }
+}

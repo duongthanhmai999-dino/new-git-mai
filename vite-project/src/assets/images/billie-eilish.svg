@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" fill="#4a3f4a"/>
+  <text x="250" y="200" text-anchor="middle" fill="#fff" font-size="24" font-family="sans-serif">Billie Eilish</text>
+  <text x="250" y="230" text-anchor="middle" fill="#b8b8b8" font-size="14" font-family="sans-serif">Thêm ảnh vào assets/images/</text>
+</svg>

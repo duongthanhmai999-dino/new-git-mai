@@ -1,0 +1,175 @@
+.top-albums {
+    padding: 0 24px 40px;
+}
+
+.top-albums-title {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 31px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 0 18px 0;
+}
+
+.top-albums-highlight {
+    color: #42aaee;
+}
+
+.top-albums-list {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    overflow-x: hidden;
+    margin-left: 10px;
+}
+
+.top-albums-card {
+    flex-shrink: 0;
+    width: 180px;
+    height: 246px;
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.top-albums-cover {
+    width: 180px;
+    height: 174px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.top-albums-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.top-albums-details {
+    position: relative;
+    padding: 14px 0px 29px 6px;
+    background-color: #1E1E1F;
+}
+
+.top-albums-card-title {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.top-albums-card-artist {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #9ca3af;
+    padding: 11px 0px 0px 0px;
+}
+
+.top-albums-album-icon {
+    position: absolute;
+    bottom: 14px;
+    right: 16px;
+    font-size: 13px;
+    color: #0E9EEF;
+}
+
+.top-albums-view-all-btn {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.top-albums-view-all-btn i {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #1F1F1F;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.top-albums-view-all-btn:hover i {
+    background-color: #2a2a2a;
+}
+
+.top-albums-view-all-btn span {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .top-albums {
+        padding: 0 16px 32px;
+    }
+
+    .top-albums-title {
+        font-size: 26px;
+    }
+
+    .top-albums-card {
+        width: 160px;
+        height: 220px;
+    }
+
+    .top-albums-cover {
+        width: 160px;
+        height: 155px;
+    }
+
+    .top-albums-view-all-btn i {
+        width: 100px;
+        height: 100px;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    .top-albums {
+        padding: 0 12px 24px;
+    }
+
+    .top-albums-title {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+
+    .top-albums-list {
+        gap: 16px;
+        margin-left: 0;
+    }
+
+    .top-albums-card {
+        width: 140px;
+        height: 195px;
+    }
+
+    .top-albums-cover {
+        width: 140px;
+        height: 135px;
+    }
+
+    .top-albums-view-all-btn i {
+        width: 80px;
+        height: 80px;
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,171 @@
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 10px 20px 62px 20px;
+    font-family: "Vazirmatn", sans-serif;
+}
+
+.topbar-search {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 350px;
+    height: 38px;
+    background-color: #656565;
+    border-radius: 10px;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+
+.topbar-search-icon {
+    color: #b8b8b8;
+    font-size: 15px;
+    transform: scaleX(-1);
+}
+
+.topbar-search-input {
+    flex: 1;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: "Vazirmatn", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+.topbar-search-input::placeholder {
+    color: #b8b8b8;
+}
+
+.topbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+
+.topbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Vazirmatn", sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+.topbar-link:hover {
+    opacity: 0.9;
+}
+
+.topbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.topbar-btn {
+    width: 119px;
+    height: 38px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+}
+
+.topbar-btn-login {
+    background-color: #1E1E1E;
+    color: #EE10B0;
+   
+}
+.topbar-btn-login:hover {
+    box-shadow: 0 0 16px rgba(255, 0, 255, 0.5);
+}
+
+.topbar-btn-signup {
+    background-color: #FF00FF;
+    color: #800080;
+    box-shadow: 0 0 16px rgba(255, 0, 255, 0.5);
+}
+.topbar-btn-signup:hover {
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.6);
+}
+
+@media (max-width: 1200px) {
+    .topbar-nav {
+        gap: 24px;
+    }
+
+    .topbar-link {
+        font-size: 18px;
+    }
+
+    .topbar-search {
+        width: 280px;
+    }
+}
+
+@media (max-width: 992px) {
+    .topbar {
+        flex-wrap: wrap;
+        gap: 16px;
+        padding: 10px 16px 32px;
+    }
+
+    .topbar-search {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .topbar-nav {
+        order: 3;
+        width: 100%;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .topbar-link {
+        font-size: 16px;
+    }
+
+    .topbar-btn {
+        width: 100px;
+        height: 36px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .topbar {
+        padding: 8px 12px 24px;
+        gap: 12px;
+    }
+
+    .topbar-search {
+        max-width: 100%;
+        height: 36px;
+    }
+
+    .topbar-nav {
+        gap: 16px;
+    }
+
+    .topbar-link {
+        font-size: 14px;
+    }
+
+    .topbar-btn {
+        width: 80px;
+        height: 32px;
+        font-size: 12px;
+    }
+}

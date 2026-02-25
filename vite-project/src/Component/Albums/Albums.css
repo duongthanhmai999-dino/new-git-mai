@@ -1,0 +1,159 @@
+.albums-page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #412C3A;
+    overflow-y: auto;
+}
+
+.albums-wrapper {
+    padding: 24px;
+}
+
+.albums-page-title {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 31px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 0 24px 0;
+}
+
+.albums-page-highlight {
+    color: #42aaee;
+}
+
+.albums-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 20px;
+}
+
+.albums-card {
+    width: 170px;
+    height: 220px;
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.albums-card:hover {
+    background-color: #2a2a2a;
+    transform: translateY(-2px);
+}
+
+.albums-cover {
+    width: 150px;
+    height: 150px;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+
+.albums-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.albums-details {
+    position: relative;
+    width: 100%;
+}
+
+.albums-card-title {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0 0 4px 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.albums-card-artist {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin: 7px 0 8px 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.albums-icon {
+    position: absolute;
+    bottom: 11px;
+    right: 11px;
+    font-size: 11px;
+    color: #42aaee;
+}
+
+@media (max-width: 1200px) {
+    .albums-grid {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+
+    .albums-card {
+        width: 100%;
+        max-width: 160px;
+        height: 210px;
+    }
+
+    .albums-cover {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 576px) {
+    .albums-wrapper {
+        padding: 16px;
+    }
+
+    .albums-page-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .albums-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .albums-card {
+        width: 100%;
+        max-width: none;
+        height: 180px;
+        padding: 6px;
+    }
+
+    .albums-cover {
+        width: 110px;
+        height: 110px;
+        margin-bottom: 6px;
+    }
+
+    .albums-card-title {
+        font-size: 13px;
+    }
+
+    .albums-card-artist {
+        font-size: 10px;
+    }
+}

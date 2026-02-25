@@ -1,0 +1,148 @@
+.music-video-dsc {
+    padding: 24px;
+}
+
+.music-video-dsc-title {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 31px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.music-video-dsc-highlight {
+    color: #EE10B0;
+}
+
+.music-video-dsc-grid {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.music-video-dsc-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 20px;
+    flex: 1;
+}
+
+.music-video-dsc-card {
+    width: 300px;
+    height: 236px;
+    background-color: #1F1F1F;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.music-video-dsc-thumbnail {
+    width: 100%;
+    height: 168.75px;
+    overflow: hidden;
+}
+
+.music-video-dsc-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.music-video-dsc-details {
+    padding: 9px 11px;
+    height: 67.25px;
+    box-sizing: border-box;
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.music-video-dsc-card-title {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.music-video-dsc-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-video-dsc-card-artist {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #9ca3af;
+    margin: 0;
+}
+
+.music-video-dsc-views {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #9ca3af;
+}
+
+.music-video-dsc-view-all-btn {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.music-video-dsc-view-all-btn i {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #1F1F1F;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.music-video-dsc-view-all-btn:hover i {
+    background-color: #2a2a2a;
+}
+
+.music-video-dsc-view-all-btn span {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media (max-width: 1200px) {
+    .music-video-dsc-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .music-video-dsc-card {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .music-video-dsc-grid {
+        flex-direction: column;
+    }
+
+    .music-video-dsc-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .music-video-dsc-card {
+        max-width: 100%;
+    }
+}

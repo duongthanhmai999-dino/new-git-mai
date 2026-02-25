@@ -1,0 +1,140 @@
+.popular-artists {
+    padding: 0 24px 40px;
+}
+
+.popular-artists-title {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 31px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.popular-artists-highlight {
+    color: #EE10B0;
+}
+
+.popular-artists-list {
+    display: flex;
+    align-items: flex-end;
+    gap: 17px;
+    overflow-x: hidden;
+    margin-left: 40px;
+}
+
+.popular-artist-card {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.popular-artist-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #1F1F1F;
+}
+
+.popular-artist-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popular-artist-name {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.popular-view-all-btn {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.popular-view-all-btn i {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #1F1F1F;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.popular-view-all-btn:hover i {
+    background-color: #2a2a2a;
+}
+
+.popular-view-all-btn span {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .popular-artists {
+        padding: 0 16px 32px;
+    }
+
+    .popular-artists-title {
+        font-size: 26px;
+    }
+
+    .popular-artist-avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .popular-view-all-btn i {
+        width: 100px;
+        height: 100px;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    .popular-artists {
+        padding: 0 12px 24px;
+    }
+
+    .popular-artists-title {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+
+    .popular-artists-list {
+        gap: 16px;
+    }
+
+    .popular-artist-avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .popular-artist-name {
+        font-size: 12px;
+    }
+
+    .popular-view-all-btn i {
+        width: 80px;
+        height: 80px;
+        font-size: 24px;
+    }
+}
