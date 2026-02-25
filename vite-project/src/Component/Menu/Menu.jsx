@@ -57,8 +57,6 @@ const Menu = () => {
                     </a>
                 </div>
 
-                //comment test
-
                 <div className="menu-category">
                     <span className="category-title">general</span>
                     <a href="#" className="menu-item">
