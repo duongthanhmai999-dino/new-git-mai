@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import layout3 from '../ImageArtist/layout3.png';
 import styles from './JoinPlatform.module.css';
 
@@ -11,8 +12,8 @@ const JoinPlatform = () => {
                 </p>
             </div>
             <div className={styles.joinPlatformButtons}>
-                <button className={styles.joinPlatformBtnSignup}>Sign Up</button>
-                <button className={styles.joinPlatformBtnLogin}>Login</button>
+                <Link to="/signup" className={styles.joinPlatformBtnSignup}>Sign Up</Link>
+                <Link to="/login" className={styles.joinPlatformBtnLogin}>Login</Link>
             </div>
             <img src={layout3} alt="layout3" className={styles.joinPlatformLayout3} />
         </div>
