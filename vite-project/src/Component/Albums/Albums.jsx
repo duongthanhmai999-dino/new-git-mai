@@ -1,6 +1,9 @@
 import './Albums.css';
 import Footer from '../Footer/Footer';
 import { useNavigate } from 'react-router-dom';
+import PlaylistHeader from './PlaylistHeader';
+import SongTable from './SongTable';
+import LayoutBanner from './LayoutBanner';
 import coverImg from '../ImageArtist/titleimg.png';
 import Softcore from '../ImageArtist/Softcore.png';
 import SkyFallBeat from '../ImageArtist/SkyfallBeats.png';
@@ -54,96 +57,11 @@ const Albums = () => {
             <div className="app-content">
                 <div className="albums-playlist-wrap">
                     <div className="playlist-detail-card">
-                        {/* Header với gradient */}
-                        <div className="playlist-detail-header">
-                            <div className="playlist-detail-nav">
-                                <button className="playlist-detail-back" onClick={() => navigate(-1)}>
-                                    <i className="bi bi-arrow-left-short"></i>
-                                </button>
-                                <div className="playlist-detail-links">
-                                    <div className="playlist-detail-nav-icons">
-                                        <a href="#">Share</a>
-                                        <a href="#">About</a>
-                                        <a href="#">Premium</a>
-                                    </div>
-                                    <button className="playlist-detail-profile">
-                                        <i className="bi bi-person-circle"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-                            <div className="playlist-detail-hero">
-                                <div className="playlist-detail-cover-info">
-                                    <div className="playlist-detail-cover-wrap">
-                                        <img src={coverImg} alt="Trending Music" className="playlist-detail-cover" />
-                                    </div>
-                                    <div className="playlist-detail-info">
-                                        <h1 className="playlist-detail-title">
-                                            Trending songs <span className="playlist-detail-title-accent">mix</span>
-                                        </h1>
-                                        <p className="playlist-detail-artists">
-                                            tate mcrae, nightmares, the neighborhood, doja cat and ...
-                                        </p>
-                                        <div className="playlist-detail-meta">
-                                            <span>20 songs</span>
-                                            <span className="playlist-detail-dot">•</span>
-                                            <span>1h 36m</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="playlist-detail-play-wrap">
-                                    <div className="playlist-detail-play">
-                                        <span className="playlist-detail-play-text">Play All</span>
-                                        <button className="playlist-detail-play-btn">
-                                            <i className="bi bi-play-circle"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Bảng danh sách bài hát - có độ loang màu */}
-                        <div className="playlist-detail-table-wrap">
-                            <div className="playlist-detail-header-row">
-                                <span className="playlist-detail-header-rank"></span>
-                                <div className="playlist-detail-table-header">
-                                    <span className="playlist-detail-col playlist-detail-col-empty"></span>
-                                    <span className="playlist-detail-col playlist-detail-col-release">Release Date</span>
-                                    <span className="playlist-detail-col playlist-detail-col-album">album</span>
-                                    <span className="playlist-detail-col playlist-detail-col-time">Time</span>
-                                </div>
-                            </div>
-                            <div className="playlist-detail-table-body">
-                                {songs.map((song, index) => (
-                                    <div key={index} className="playlist-detail-row-wrap">
-                                        <span className="playlist-detail-rank">{index + 1}</span>
-                                        <div className={`playlist-detail-row ${index === 1 ? 'playlist-detail-row--active' : ''}`}>
-                                        <div className="playlist-detail-song-cell">
-                                            <div className="playlist-detail-thumb">
-                                                <img src={song.image} alt={song.title} />
-                                            </div>
-                                            <div className="playlist-detail-song-info">
-                                                <p className="playlist-detail-song-title">{song.title}</p>
-                                                <p className="playlist-detail-song-artist">{song.artist}</p>
-                                            </div>
-                                        </div>
-                                        <span className="playlist-detail-release">{song.release}</span>
-                                        <span className="playlist-detail-album">{song.album}</span>
-                                        <div className="playlist-detail-meta-cell">
-                                            <i className="bi bi-heart playlist-detail-heart"></i>
-                                            <span className="playlist-detail-duration">{song.duration}</span>
-                                            <i className="bi bi-three-dots playlist-detail-menu"></i>
-                                        </div>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
+                        <PlaylistHeader coverImg={coverImg} onBack={() => navigate(-1)} />
+                        <SongTable songs={songs} />
                     </div>
                 </div>
-                <div className="albums-layout-wrap">
-                    <img src={layout3} alt="layout3" className="albums-layout3" />
-                </div>
+                <LayoutBanner layoutImg={layout3} />
                 <Footer />
             </div>
         </div>

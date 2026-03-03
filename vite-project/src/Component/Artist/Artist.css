@@ -1,0 +1,262 @@
+.artist-page {
+    flex: 1;
+    min-height: 100%;
+    background-color: #412C3A;
+}
+
+.artist-page .app-content {
+    padding: 48px 24px;
+}
+
+.artist-card-wrap {
+    position: relative;
+    max-width: 1076px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* BG đen → trong suốt (ảnh + Popular chung) */
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.85) 0%,
+        rgba(0, 0, 0, 0.65) 40%,
+        rgba(0, 0, 0, 0.35) 75%,
+        rgba(0, 0, 0, 0.1) 100%
+    );
+}
+
+/* NavBar wrapper - style riêng cho Artist, không ảnh hưởng Albums */
+.artist-nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    padding: 12px 24px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
+}
+
+/* Override NavBar: dùng .artist-nav-bar .detail-nav-back, .artist-nav-bar .detail-nav-links... */
+
+.artist-img-wrap {
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+
+.artist-img {
+    width: 100%;
+    height: 422px;
+    object-fit: cover;
+    display: block;
+}
+
+/* ========== Popular Table (trong bg đen gradient) ========== */
+.artist-popular-section {
+    position: relative;
+    z-index: 1;
+    padding: 28px 28px 32px;
+}
+
+.artist-popular-title {
+    margin: -20px 0 0 0;
+}
+
+.artist-popular-table-wrap {
+    padding: 0;
+    margin-left: -10px;
+}
+
+.artist-popular-header-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.artist-popular-header-rank {
+    width: 30px;
+    min-width: 30px;
+    flex-shrink: 0;
+}
+
+.artist-popular-table-header {
+    display: grid;
+    grid-template-columns: 200px 106px 280px 1fr;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+    padding-bottom: 11px;
+}
+
+/* Class riêng cho chữ */
+.artist-popular-text-title {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.artist-popular-text-release {
+    font-family: "Vazirmatn", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.artist-popular-text-played {
+    font-family: "Vazirmatn", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.artist-popular-text-time {
+    font-family: "Vazirmatn", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    transform: translateX(-35px);
+}
+
+.artist-popular-text-song {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.artist-popular-text-artist {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.artist-popular-text-meta {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.artist-popular-col-empty {
+    min-width: 0;
+}
+
+.artist-popular-col-release,
+.artist-popular-col-played,
+.artist-popular-col-time {
+    min-width: 0;
+    text-align: right;
+}
+
+.artist-popular-table-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 8px;
+}
+
+.artist-popular-row-wrap {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.artist-popular-rank {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 30px;
+    min-width: 30px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.artist-popular-row {
+    display: grid;
+    grid-template-columns: 200px 106px 280px 1fr;
+    align-items: center;
+    gap: 16px;
+    height: 60px;
+    flex: 1;
+    background-color: rgba(30, 30, 30, 0.6);
+    border-radius: 5px;
+    transition: background 0.2s;
+}
+
+.artist-popular-row:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.artist-popular-song-cell {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    min-width: 0;
+}
+
+.artist-popular-thumb {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.artist-popular-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.artist-popular-song-title {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.artist-popular-song-artist {
+    margin: 2px 0 0 0;
+}
+
+.artist-popular-meta-cell {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: flex-end;
+    padding-right: 8px;
+}
+
+.artist-popular-heart {
+    font-size: 17px;
+    color: #EE10B0;
+    opacity: 0.9;
+}
+
+.artist-popular-menu {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.artist-popular-show-all {
+    display: block;
+    margin: 24px auto 0;
+    padding: 12px 48px;
+    background-color: #EE10B0;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}

@@ -1,3 +1,67 @@
+/* ========== NavBar (dùng chung Albums + Artist) ========== */
+.detail-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail-nav-back {
+    width: 65px;
+    height: 65px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    font-weight: 700;
+    transition: opacity 0.2s;
+    padding-right: 25px;
+}
+
+.detail-nav-back i {
+    font-size: 65px;
+    font-weight: 700;
+    -webkit-text-stroke: 0.5px currentColor;
+}
+
+.detail-nav-back:hover {
+    opacity: 0.8;
+}
+
+.detail-nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.detail-nav-links a {
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+.detail-nav-links a:hover {
+    color: #fff;
+}
+
+.detail-nav-profile {
+    width: 33px;
+    height: 33px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+}
+
 /* ========== Albums Page ========== */
 .albums-page {
     flex: 1;
@@ -133,73 +197,8 @@
     padding: 28px;
 }
 
-.playlist-detail-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.playlist-detail-nav-wrap {
     margin-bottom: 30px;
-}
-
-.playlist-detail-back {
-    width: 45px;
-    height: 45px;
-    border: none;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 45px;
-    font-weight: 700;
-    transition: opacity 0.2s;
-}
-
-.playlist-detail-back i {
-    font-size: 45px;
-    font-weight: 700;
-    -webkit-text-stroke: 0.5px currentColor;
-}
-
-.playlist-detail-back:hover {
-    opacity: 0.8;
-}
-
-.playlist-detail-links {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-.playlist-detail-nav-icons {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-
-.playlist-detail-nav-icons a {
-    font-family: "Vazirmatn", sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    color: #fff;
-    text-decoration: none;
-}
-
-.playlist-detail-nav-icons a:hover {
-    color: #fff;
-}
-
-.playlist-detail-profile {
-    width: 33px;
-    height: 33px;
-    border: none;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 33px;
 }
 
 .playlist-detail-hero {
