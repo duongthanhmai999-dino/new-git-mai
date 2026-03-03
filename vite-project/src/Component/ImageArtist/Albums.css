@@ -385,7 +385,7 @@
 .playlist-detail-table-body {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 8px;
     margin-top: 6px;
 }
 
@@ -403,14 +403,8 @@
     letter-spacing: 0;
     width: 30px;
     min-width: 30px;
-    height: 60px;
     flex-shrink: 0;
     color: #FFFFFF;
-    background: #2E86FF;
-    border-radius: 4px 0 0 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .playlist-detail-row {

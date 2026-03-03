@@ -1,52 +1,143 @@
 import './Albums.css';
-import TopBar from '../TopBar/TopBar';
 import Footer from '../Footer/Footer';
-import iGotHeavenImg from '../ImageArtist/IGotHeaven.png';
-import saviorsImg from '../ImageArtist/Saviors.png';
-import lossOfLifeImg from '../ImageArtist/LossofLife.png';
-import allQuietImg from '../ImageArtist/AllQuietontheEasternEsplanade.png';
-import littleRopeImg from '../ImageArtist/LittleRope.png';
-import adele21Img from '../ImageArtist/Adele21.png';
-import beautyBehindImg from '../ImageArtist/BeautyBehindtheMadnesse 21.png';
-import scorpionImg from '../ImageArtist/Scorpion.png';
-import harrysHouseImg from "../ImageArtist/Harry'sHouse.png";
-import bornToDieImg from '../ImageArtist/BornToDie.png';
+import { useNavigate } from 'react-router-dom';
+import coverImg from '../ImageArtist/titleimg.png';
+import Softcore from '../ImageArtist/Softcore.png';
+import SkyFallBeat from '../ImageArtist/SkyfallBeats.png';
+import Greedy from '../ImageArtist/Greedy.png';
+import Lovionme from '../ImageArtist/LovinOnme.png';
+import painthetownred from '../ImageArtist/painthetownred.png';
+import DancinOnNight from '../ImageArtist/DancinOnNight.png';
+import Water from '../ImageArtist/Water.png';
+import Pushyourimits from '../ImageArtist/Pushyourimits.png';
+import Houdini from '../ImageArtist/Houdini.png';
+import Lala from '../ImageArtist/Lala.png';
+import Paradise from '../ImageArtist/Paradise.png';
+import AnotherLove from '../ImageArtist/AnotherLove.png';
+import AsItWas from '../ImageArtist/AsItWas.png';
+import Beggin from '../ImageArtist/Beggin.png';
+import BornToDie from '../ImageArtist/BornToDie.png';
+import DaddyIssues from '../ImageArtist/DaddyIssues.png';
+import ShapeOfYou from '../ImageArtist/ShapeOfYou.png';
+import RollingInTheDeep from '../ImageArtist/RollingInTheDeep.png';
+import SomeoneLikeYou from '../ImageArtist/SomeoneLikeYou.png';
+import WhateverItTakes from '../ImageArtist/WhateverItTakes.png';
 
 const Albums = () => {
-    const albums = [
-        { image: iGotHeavenImg, title: 'I Got Heaven', artist: 'Mannequin' },
-        { image: saviorsImg, title: 'Saviors', artist: 'Green Day' },
-        { image: lossOfLifeImg, title: 'Loss of Life', artist: 'MGMT' },
-        { image: allQuietImg, title: 'All Quiet on the Eastern Esplanade', artist: 'The Libertines' },
-        { image: littleRopeImg, title: 'Little Rope', artist: 'Sleater-Kinney' },
-        { image: adele21Img, title: 'Adele 21', artist: 'Adele' },
-        { image: beautyBehindImg, title: 'Beauty Behind the Madness 21', artist: 'The Weeknd' },
-        { image: scorpionImg, title: 'Scorpion', artist: 'Drake' },
-        { image: harrysHouseImg, title: "Harry's House", artist: 'Harry Styles' },
-        { image: bornToDieImg, title: 'Born To Die', artist: 'Lana Del Rey' },
+    const navigate = useNavigate();
+    const songs = [
+        { image: Softcore, title: 'Softcore', artist: 'The neighborhood', release: 'Nov 4, 2023', album: 'Hard to Imagine Neighbourhood Ever Changing', duration: '3:26' },
+        { image: SkyFallBeat, title: 'Skyfall Beats', artist: 'nightmares', release: 'Dec 30, 2023', album: 'Greedy', duration: '2:11' },
+        { image: Greedy, title: 'Greedy', artist: 'tate mcrae', release: 'Oct 5, 2012', album: 'Skyfall', duration: '4:46' },
+        { image: Lovionme, title: 'Lovin On me', artist: 'jack harlow', release: 'May 26, 2002', album: 'The Eminem Show', duration: '5:50' },
+        { image: painthetownred, title: 'pain the town red', artist: 'Doja Cat', release: 'Oct 7, 2022', album: 'Rush!', duration: '4:07' },
+        { image: DancinOnNight, title: 'Dancin On Night', artist: 'Dua Lipa', release: 'May 27, 2023', album: 'Dance The Night (From Barbie Movie)', duration: '2:56' },
+        { image: Water, title: 'Water', artist: 'Tyla', release: 'Oct 21, 2023', album: 'Water', duration: '3:20' },
+        { image: Pushyourimits, title: 'Push your limits', artist: 'Brian michael', release: 'Jan 2, 2024', album: 'Push your limits', duration: '2:24' },
+        { image: Houdini, title: 'Houdini', artist: 'Dua Lipa', release: 'Dec 12, 2023', album: 'Houdini', duration: '3:05' },
+        { image: Lala, title: 'Lala', artist: 'myke towers', release: 'Mar 15, 2024', album: 'La vida es una', duration: '3:17' },
+        { image: Paradise, title: 'Paradise', artist: 'Coldplay', release: 'Sep 12, 2011', album: 'Mylo Xyloto', duration: '4:38' },
+        { image: AnotherLove, title: 'Another Love', artist: 'Tom Odell', release: 'Jun 24, 2013', album: 'Long Way Down', duration: '4:04' },
+        { image: AsItWas, title: 'As It Was', artist: 'Harry Styles', release: 'Apr 1, 2022', album: "Harry's House", duration: '2:47' },
+        { image: Beggin, title: 'Beggin', artist: 'Måneskin', release: 'Dec 3, 2021', album: 'Chosen', duration: '3:31' },
+        { image: BornToDie, title: 'Born to Die', artist: 'Lana Del Rey', release: 'Jan 27, 2012', album: 'Born to Die', duration: '4:46' },
+        { image: DaddyIssues, title: 'Daddy Issues', artist: 'The Neighbourhood', release: 'Sep 23, 2015', album: 'Wiped Out!', duration: '4:12' },
+        { image: ShapeOfYou, title: 'Shape of You', artist: 'Ed Sheeran', release: 'Jan 6, 2017', album: '÷', duration: '3:53' },
+        { image: RollingInTheDeep, title: 'Rolling in the Deep', artist: 'Adele', release: 'Nov 29, 2010', album: '21', duration: '3:48' },
+        { image: SomeoneLikeYou, title: 'Someone Like You', artist: 'Adele', release: 'Jan 24, 2011', album: '21', duration: '4:45' },
+        { image: WhateverItTakes, title: 'Whatever It Takes', artist: 'Imagine Dragons', release: 'May 9, 2017', album: 'Evolve', duration: '3:21' },
     ];
 
     return (
         <div className="app albums-page">
             <div className="app-content">
-                <TopBar />
-                <div className="albums-wrapper">
-                    <h1 className="albums-page-title">
-                        <span className="albums-page-highlight">Albums</span>
-                    </h1>
-                    <div className="albums-grid">
-                        {albums.map((album, index) => (
-                            <div key={index} className="albums-card">
-                                <div className="albums-cover">
-                                    <img src={album.image} alt={album.title} />
-                                </div>
-                                <div className="albums-details">
-                                    <p className="albums-card-title">{album.title}</p>
-                                    <p className="albums-card-artist">{album.artist}</p>
-                                    <span className="albums-icon material-icons">album</span>
+                <div className="albums-playlist-wrap">
+                    <div className="playlist-detail-card">
+                        {/* Header với gradient */}
+                        <div className="playlist-detail-header">
+                            <div className="playlist-detail-nav">
+                                <button className="playlist-detail-back" onClick={() => navigate(-1)}>
+                                    <i className="bi bi-arrow-left-short"></i>
+                                </button>
+                                <div className="playlist-detail-links">
+                                    <div className="playlist-detail-nav-icons">
+                                        <a href="#">Share</a>
+                                        <a href="#">About</a>
+                                        <a href="#">Premium</a>
+                                    </div>
+                                    <button className="playlist-detail-profile">
+                                        <i className="bi bi-person-circle"></i>
+                                    </button>
                                 </div>
                             </div>
-                        ))}
+
+                            <div className="playlist-detail-hero">
+                                <div className="playlist-detail-cover-info">
+                                    <div className="playlist-detail-cover-wrap">
+                                        <img src={coverImg} alt="Trending Music" className="playlist-detail-cover" />
+                                    </div>
+                                    <div className="playlist-detail-info">
+                                        <h1 className="playlist-detail-title">
+                                            Trending songs <span className="playlist-detail-title-accent">mix</span>
+                                        </h1>
+                                        <p className="playlist-detail-artists">
+                                            tate mcrae, nightmares, the neighborhood, doja cat and ...
+                                        </p>
+                                        <div className="playlist-detail-meta">
+                                            <span>20 songs</span>
+                                            <span className="playlist-detail-dot">•</span>
+                                            <span>1h 36m</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="playlist-detail-play-wrap">
+                                    <div className="playlist-detail-play">
+                                        <span className="playlist-detail-play-text">Play All</span>
+                                        <button className="playlist-detail-play-btn">
+                                            <i className="bi bi-play-circle"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Bảng danh sách bài hát - có độ loang màu */}
+                        <div className="playlist-detail-table-wrap">
+                            <div className="playlist-detail-header-row">
+                                <span className="playlist-detail-header-rank"></span>
+                                <div className="playlist-detail-table-header">
+                                    <span className="playlist-detail-col playlist-detail-col-empty"></span>
+                                    <span className="playlist-detail-col playlist-detail-col-release">Release Date</span>
+                                    <span className="playlist-detail-col playlist-detail-col-album">album</span>
+                                    <span className="playlist-detail-col playlist-detail-col-time">Time</span>
+                                </div>
+                            </div>
+                            <div className="playlist-detail-table-body">
+                                {songs.map((song, index) => (
+                                    <div key={index} className="playlist-detail-row-wrap">
+                                        <span className="playlist-detail-rank">{index + 1}</span>
+                                        <div className={`playlist-detail-row ${index === 1 ? 'playlist-detail-row--active' : ''}`}>
+                                        <div className="playlist-detail-song-cell">
+                                            <div className="playlist-detail-thumb">
+                                                <img src={song.image} alt={song.title} />
+                                            </div>
+                                            <div className="playlist-detail-song-info">
+                                                <p className="playlist-detail-song-title">{song.title}</p>
+                                                <p className="playlist-detail-song-artist">{song.artist}</p>
+                                            </div>
+                                        </div>
+                                        <span className="playlist-detail-release">{song.release}</span>
+                                        <span className="playlist-detail-album">{song.album}</span>
+                                        <div className="playlist-detail-meta-cell">
+                                            <i className="bi bi-heart playlist-detail-heart"></i>
+                                            <span className="playlist-detail-duration">{song.duration}</span>
+                                            <i className="bi bi-three-dots playlist-detail-menu"></i>
+                                        </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <Footer />
