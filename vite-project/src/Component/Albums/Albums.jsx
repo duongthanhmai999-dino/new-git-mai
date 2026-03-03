@@ -12,16 +12,16 @@ import Water from '../ImageArtist/Water.png';
 import Pushyourimits from '../ImageArtist/Pushyourimits.png';
 import Houdini from '../ImageArtist/Houdini.png';
 import Lala from '../ImageArtist/Lala.png';
+import IWanaaBeYours from '../ImageArtist/IWanaaBeYours.png';
 import Paradise from '../ImageArtist/Paradise.png';
-import AnotherLove from '../ImageArtist/AnotherLove.png';
 import AsItWas from '../ImageArtist/AsItWas.png';
+import AnotherLove from '../ImageArtist/AnotherLove.png';
+import Daylight from '../ImageArtist/dayline.png';
 import Beggin from '../ImageArtist/Beggin.png';
-import BornToDie from '../ImageArtist/BornToDie.png';
+import WhatWasIMadeFor from '../ImageArtist/WhatWasIMadeF....png';
 import DaddyIssues from '../ImageArtist/DaddyIssues.png';
-import ShapeOfYou from '../ImageArtist/ShapeOfYou.png';
 import RollingInTheDeep from '../ImageArtist/RollingInTheDeep.png';
-import SomeoneLikeYou from '../ImageArtist/SomeoneLikeYou.png';
-import WhateverItTakes from '../ImageArtist/WhateverItTakes.png';
+import OneShot from '../ImageArtist/OneShot.png';
 
 const Albums = () => {
     const navigate = useNavigate();
@@ -34,18 +34,18 @@ const Albums = () => {
         { image: DancinOnNight, title: 'Dancin On Night', artist: 'Dua Lipa', release: 'May 27, 2023', album: 'Dance The Night (From Barbie Movie)', duration: '2:56' },
         { image: Water, title: 'Water', artist: 'Tyla', release: 'Oct 21, 2023', album: 'Water', duration: '3:20' },
         { image: Pushyourimits, title: 'Push your limits', artist: 'Brian michael', release: 'Jan 2, 2024', album: 'Push your limits', duration: '2:24' },
-        { image: Houdini, title: 'Houdini', artist: 'Dua Lipa', release: 'Dec 12, 2023', album: 'Houdini', duration: '3:05' },
-        { image: Lala, title: 'Lala', artist: 'myke towers', release: 'Mar 15, 2024', album: 'La vida es una', duration: '3:17' },
-        { image: Paradise, title: 'Paradise', artist: 'Coldplay', release: 'Sep 12, 2011', album: 'Mylo Xyloto', duration: '4:38' },
-        { image: AnotherLove, title: 'Another Love', artist: 'Tom Odell', release: 'Jun 24, 2013', album: 'Long Way Down', duration: '4:04' },
-        { image: AsItWas, title: 'As It Was', artist: 'Harry Styles', release: 'Apr 1, 2022', album: "Harry's House", duration: '2:47' },
-        { image: Beggin, title: 'Beggin', artist: 'Måneskin', release: 'Dec 3, 2021', album: 'Chosen', duration: '3:31' },
-        { image: BornToDie, title: 'Born to Die', artist: 'Lana Del Rey', release: 'Jan 27, 2012', album: 'Born to Die', duration: '4:46' },
-        { image: DaddyIssues, title: 'Daddy Issues', artist: 'The Neighbourhood', release: 'Sep 23, 2015', album: 'Wiped Out!', duration: '4:12' },
-        { image: ShapeOfYou, title: 'Shape of You', artist: 'Ed Sheeran', release: 'Jan 6, 2017', album: '÷', duration: '3:53' },
-        { image: RollingInTheDeep, title: 'Rolling in the Deep', artist: 'Adele', release: 'Nov 29, 2010', album: '21', duration: '3:48' },
-        { image: SomeoneLikeYou, title: 'Someone Like You', artist: 'Adele', release: 'Jan 24, 2011', album: '21', duration: '4:45' },
-        { image: WhateverItTakes, title: 'Whatever It Takes', artist: 'Imagine Dragons', release: 'May 9, 2017', album: 'Evolve', duration: '3:21' },
+        { image: Houdini, title: 'Houdini', artist: 'Dualipa', release: 'Dec 12, 2023', album: 'Houdini', duration: '3:05' },
+        { image: Lala, title: 'Lala', artist: 'myke towers', release: 'Nov 20, 2023', album: 'La vida es una', duration: '3:17' },
+        { image: IWanaaBeYours, title: 'I Wanaa Be Yours', artist: 'arctic monkeys', release: 'Sep 9, 2023', album: 'AM', duration: '3:03' },
+        { image: Paradise, title: 'Paradise', artist: 'braaheim', release: 'Jul 5, 2023', album: 'Paradise', duration: '2:30' },
+        { image: AsItWas, title: 'As It Was', artist: 'Harry Styles', release: 'Sep 14, 2022', album: 'As It Was', duration: '2:47' },
+        { image: AnotherLove, title: 'Another Love', artist: 'Tom Odell', release: 'Dec 19, 2013', album: 'Another Love', duration: '4:06' },
+        { image: Daylight, title: 'Daylight', artist: 'david kushner', release: 'Jun 16, 2022', album: 'Daylight', duration: '3:32' },
+        { image: Beggin, title: 'Beggin', artist: 'Måneskin', release: 'Feb 27, 2017', album: 'Chosen', duration: '3:31' },
+        { image: WhatWasIMadeFor, title: 'What Was I Made For', artist: 'Billie eilish', release: 'Sep 6, 2023', album: 'What Was I Made For', duration: '3:42' },
+        { image: DaddyIssues, title: 'Daddy Issues', artist: 'The Neighbourhood', release: 'Aug 21, 2015', album: 'Wiped out', duration: '4:20' },
+        { image: RollingInTheDeep, title: 'Rolling In The Deep', artist: 'Adele', release: 'Jun 5, 2011', album: 'Adele 21', duration: '3:48' },
+        { image: OneShot, title: 'OneShot', artist: 'mhst', release: 'Dec 14, 2023', album: 'Toca Donka', duration: '1:15' },
     ];
 
     return (
