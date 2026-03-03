@@ -32,10 +32,10 @@ const Menu = () => {
                         <i className="bi bi-disc menu-icon"></i>
                         Albums
                     </NavLink>
-                    <a href="#" className="menu-item">
+                    <NavLink to="/artist" className={({ isActive }) => isActive ? 'menu-item active' : 'menu-item'}>
                         <i className="bi bi-person menu-icon"></i>
                         Artists
-                    </a>
+                    </NavLink>
                 </div>
 
                 <div className="menu-category">

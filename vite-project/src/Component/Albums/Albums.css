@@ -113,16 +113,18 @@
 /* Gradient loang màu: tím indigo → cyan, kèm glow hồng magenta */
 .playlist-detail-card {
     position: relative;
+    max-width: 1180px;
+    margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
     padding-bottom: 24px;
     background: linear-gradient(
-        135deg,
-        #2E86FF 0%,
-        #4C73E3 30%,
-        #5A6FC4 55%,
-        #4C5A92 75%,
-        #2F355A 100%
+        to right,
+        #1171E2 0%,
+        #1E7FE8 30%,
+        #2A88E8 55%,
+        rgba(42, 136, 232, 0.5) 75%,
+        transparent 100%
     );
     filter: saturate(110%);
 }
@@ -529,6 +531,30 @@
 
 .playlist-detail-menu:hover {
     color: #fff;
+}
+
+/* Layout3 image - giống JoinPlatform */
+.albums-layout-wrap {
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%;
+    min-height: 200px;
+}
+
+.albums-layout3 {
+    width: 100%;
+    max-width: 1538px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+/* Footer đẩy lên giống trang home */
+.albums-page .footer {
+    margin-top: -320px;
+    padding-top: 80px;
 }
 
 /* ========== Responsive ========== */

@@ -22,6 +22,7 @@ import WhatWasIMadeFor from '../ImageArtist/WhatWasIMadeF....png';
 import DaddyIssues from '../ImageArtist/DaddyIssues.png';
 import RollingInTheDeep from '../ImageArtist/RollingInTheDeep.png';
 import OneShot from '../ImageArtist/OneShot.png';
+import layout3 from '../ImageArtist/layout3.png';
 
 const Albums = () => {
     const navigate = useNavigate();
@@ -139,6 +140,9 @@ const Albums = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="albums-layout-wrap">
+                    <img src={layout3} alt="layout3" className="albums-layout3" />
                 </div>
                 <Footer />
             </div>

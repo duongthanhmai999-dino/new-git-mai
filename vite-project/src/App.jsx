@@ -3,6 +3,7 @@ import Main from './Component/Main/Main.jsx'
 import Menu from './Component/Menu/Menu.jsx'
 import Discover from './Component/Discover/Discover.jsx'
 import Albums from './Component/Albums/Albums.jsx'
+import Artist from './Component/Artist/Artist.jsx'
 import Profile from './Component/Profile/Profile.jsx'
 import Login from './Component/Auth/Login.jsx'
 import SignUp from './Component/Auth/SignUp.jsx'
@@ -31,6 +32,7 @@ function App() {
         <Route index element={<Main />} />
         <Route path="discover" element={<Discover />} />
         <Route path="albums" element={<Albums />} />
+        <Route path="artist" element={<Artist />} />
         <Route path="profile" element={<Profile />} />
       </Route>
 
