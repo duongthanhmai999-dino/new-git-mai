@@ -561,10 +561,9 @@
 }
 
 .artist-playlist-cover-wrap {
+    position: relative;
     width: 169px;
-    height: 169px;
     border-radius: 10px;
-    overflow: hidden;
 }
 
 .artist-playlist-cover-wrap img {
@@ -589,14 +588,6 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-.artist-playlist-year {
-    font-family: "Vazirmatn", sans-serif;
-    font-size: 13px;
-    color: #b3b3b3;
-    padding: 4px 0 0;
-    margin: 0;
 }
 
 .artist-playlist-play-indicator {
