@@ -3,6 +3,8 @@ import '../Albums/Albums.css';
 import { useNavigate } from 'react-router-dom';
 import EminemImg from '../ImageArtist/Eminem.png';
 import NavBar from '../Albums/NavBar';
+import LayoutBanner from '../Albums/LayoutBanner';
+import Footer from '../Footer/Footer';
 import ArtistPopularTable from './ArtistPopularTable';
 import WithoutMe from '../ImageArtist/WithoutMe.png';
 import mockingbird from '../ImageArtist/mockingbird.png';
@@ -23,6 +25,11 @@ import BestOfEminem from '../ImageArtist/BestOfEminem.png';
 import OldSongs from '../ImageArtist/OldSongs.png';
 import FansFavorite from '../ImageArtist/FansFavorite.png';
 import NewReleaseSo from '../ImageArtist/New Release So.png';
+import SnoopDog from '../ImageArtist/SnoopDog.png';
+import Tupac from '../ImageArtist/Tupac.png';
+import FiftyCent from '../ImageArtist/50Cent.png';
+import JayZ from '../ImageArtist/Jay-z.png';
+import layout3 from '../ImageArtist/layout3.png';
 
 const Artist = () => {
     const navigate = useNavigate();
@@ -56,6 +63,13 @@ const Artist = () => {
         { image: OldSongs, titleOnImage: 'Old Songs', subtitle: 'Old Songs' },
         { image: FansFavorite, titleOnImage: 'Fan favorite', subtitle: "Fan's Favorite" },
         { image: NewReleaseSo, titleOnImage: 'New Release', subtitle: 'New Release So...' },
+    ];
+
+    const fansAlsoListenTo = [
+        { image: FiftyCent, name: '50 Cent' },
+        { image: SnoopDog, name: 'Snoop Dogg' },
+        { image: Tupac, name: '2Pac' },
+        { image: JayZ, name: 'Jay-Z' },
     ];
 
     return (
@@ -149,7 +163,30 @@ const Artist = () => {
                             </div>
                         </div>
                     </section>
+                    <section className="artist-fans-section">
+                        <h2 className="artist-fans-title h2">
+                            Eminem Fans <span className="artist-fans-accent">Also Listen To</span>
+                        </h2>
+                        <div className="artist-fans-list">
+                            {fansAlsoListenTo.map((artist, i) => (
+                                <div key={i} className="artist-fans-card">
+                                    <div className="artist-fans-avatar">
+                                        <img src={artist.image} alt={artist.name} />
+                                    </div>
+                                    <p className="artist-fans-name">{artist.name}</p>
+                                </div>
+                            ))}
+                            <div className="artist-fans-view-all">
+                                <div className="artist-fans-view-all-icon">
+                                    <span className="material-icons">add</span>
+                                </div>
+                                <span className="artist-fans-view-all-text">View All</span>
+                            </div>
+                        </div>
+                    </section>
                 </div>
+                <LayoutBanner layoutImg={layout3} />
+                <Footer />
             </div>
         </div>
     );
