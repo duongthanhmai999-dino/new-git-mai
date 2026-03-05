@@ -13,6 +13,14 @@ import Encore from '../ImageArtist/Encore.png';
 import Recovery from '../ImageArtist/Recovery.png';
 import MusicToBeMurdered from '../ImageArtist/MusicTo beMrder.png';
 import EminemTheSlim from '../ImageArtist/EminemTheSlim.png';
+import LaceIt from '../ImageArtist/LaceIt.png';
+import realest from '../ImageArtist/releast.png';
+import FromtheD2theLBC from '../ImageArtist/FromtheD2theLBC.png';
+import Img911 from '../ImageArtist/911.png';
+import Killshot from '../ImageArtist/Killshot.png';
+import ChillPlaylist from '../ImageArtist/ChillPlaylist.png';
+import RapTracks from '../ImageArtist/RapTracks.png';
+import LovePlaylist from '../ImageArtist/LovePlaylist.png';
 
 const Artist = () => {
     const navigate = useNavigate();
@@ -33,9 +41,17 @@ const Artist = () => {
     ];
 
     const singleSongs = [
-        { image: WithoutMe, title: 'Without Me', year: '2002' },
-        { image: LoseYourself, title: 'Lose Yourself', year: '2002' },
-        { image: Godzila, title: 'Godzilla', year: '2020' },
+        { image: LaceIt, title: 'Lace It', year: '2023' },
+        { image: realest, title: 'releast', year: '2022' },
+        { image: FromtheD2theLBC, title: 'From the D 2 the LBC', year: '2023' },
+        { image: Img911, title: '911', year: '2022' },
+        { image: Killshot, title: 'Killshot', year: '2018' },
+    ];
+
+    const playlists = [
+        { image: ChillPlaylist, title: 'Chill Vibes', year: '2024' },
+        { image: RapTracks, title: 'Rap Essentials', year: '2024' },
+        { image: LovePlaylist, title: 'Love Songs', year: '2024' },
     ];
 
     return (
@@ -50,7 +66,7 @@ const Artist = () => {
                     </div>
                     <ArtistPopularTable songs={popularSongs} />
                     <section className="artist-albums-section">
-                        <h2 className="artist-albums-title">
+                        <h2 className="artist-albums-title h1">
                             Artist's <span className="artist-albums-accent">Albums</span>
                         </h2>
                         <div className="artist-albums-list">
@@ -77,7 +93,7 @@ const Artist = () => {
                         </div>
                     </section>
                     <section className="artist-singles-section">
-                        <h2 className="artist-singles-title">
+                        <h2 className="artist-singles-title h2">
                             Single <span className="artist-singles-accent">Songs</span>
                         </h2>
                         <div className="artist-singles-list">
@@ -90,7 +106,7 @@ const Artist = () => {
                                         <div className="artist-single-title">{song.title}</div>
                                         <div className="artist-single-year">{song.year}</div>
                                         <div className="artist-single-play-indicator">
-                                            <span className="material-icons">album</span>
+                                            <i className="bi bi-music-note-beamed"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -100,6 +116,33 @@ const Artist = () => {
                                     <span className="material-icons">add</span>
                                 </div>
                                 <span className="artist-single-view-all-text">View All</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="artist-playlist-section">
+                        <h2 className="artist-playlist-title h2">
+                            Artist's <span className="artist-playlist-accent">Playlist</span>
+                        </h2>
+                        <div className="artist-playlist-list">
+                            {playlists.map((playlist, i) => (
+                                <div key={i} className="artist-playlist-card">
+                                    <div className="artist-playlist-cover-wrap">
+                                        <img src={playlist.image} alt={playlist.title} />
+                                    </div>
+                                    <div className="artist-playlist-details">
+                                        <div className="artist-playlist-title-text">{playlist.title}</div>
+                                        <div className="artist-playlist-year">{playlist.year}</div>
+                                        <div className="artist-playlist-play-indicator">
+                                            <i className="bi bi-music-note-beamed"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                            <div className="artist-playlist-view-all">
+                                <div className="artist-playlist-view-all-icon">
+                                    <span className="material-icons">add</span>
+                                </div>
+                                <span className="artist-playlist-view-all-text">View All</span>
                             </div>
                         </div>
                     </section>
