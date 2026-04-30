@@ -1,0 +1,2764 @@
+{
+  "runId": "deezer-30artists-2albums-20tracks",
+  "source": "Deezer raw -> lite seed (trimmed)",
+  "counts": {
+    "artists": 19,
+    "albums": 19,
+    "tracks": 184
+  },
+  "artists": [
+    {
+      "artist": {
+        "id": 76600632,
+        "name": "Miracle Tones",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 858155392,
+            "title": "528 Hz Deep Sleep & DNA Repair",
+            "release_date": "2025-12-05",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 3660671992,
+              "title": "528 Hz Sleep Music",
+              "track_number": 1,
+              "duration": 237,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/5/9/0/05954dcdc894cb84c7bb62442ffa749f.mp3?hdnea=exp=1777454446~acl=/api/1/1/0/5/9/0/05954dcdc894cb84c7bb62442ffa749f.mp3*~data=user_id=0,application_id=42~hmac=8c8fc928c236ee0a62f3f18c2a7b5d3b76e970bd8506dee0259e61f4d41228a2",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b54f36070b744a82ae3c22033b6fa410/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 76600632,
+                "name": "Miracle Tones"
+              }
+            },
+            {
+              "id": 3660672002,
+              "title": "528 Hz Miracle Sleep Tone",
+              "track_number": 2,
+              "duration": 218,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/1/e/0/21edb21fbf54436f819c8392c9834368.mp3?hdnea=exp=1777454446~acl=/api/1/1/2/1/e/0/21edb21fbf54436f819c8392c9834368.mp3*~data=user_id=0,application_id=42~hmac=0366e30caf6310085622075cc8518cd1574dd47939bb3ac82190f260864031c1",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b54f36070b744a82ae3c22033b6fa410/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 76600632,
+                "name": "Miracle Tones"
+              }
+            },
+            {
+              "id": 3660672012,
+              "title": "528 Hz Sleep & DNA Repair",
+              "track_number": 3,
+              "duration": 212,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/4/0/0/240b00496f6d7d54730cfbec967e855f.mp3?hdnea=exp=1777454446~acl=/api/1/1/2/4/0/0/240b00496f6d7d54730cfbec967e855f.mp3*~data=user_id=0,application_id=42~hmac=fdf8de5caf58c0d1dc7538952f6ea380f8ab6c05d8872aa86deb182d33e789fd",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b54f36070b744a82ae3c22033b6fa410/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 76600632,
+                "name": "Miracle Tones"
+              }
+            },
+            {
+              "id": 3660672022,
+              "title": "528 Hz Insomnia Relief",
+              "track_number": 4,
+              "duration": 226,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/a/6/0/ea62f1299994efb45c9a55aaf3684273.mp3?hdnea=exp=1777454446~acl=/api/1/1/e/a/6/0/ea62f1299994efb45c9a55aaf3684273.mp3*~data=user_id=0,application_id=42~hmac=4ff28dcdac9be9269703a0cf3024c7deb9a1ebdafc70a7ab155103b81d649b41",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b54f36070b744a82ae3c22033b6fa410/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 76600632,
+                "name": "Miracle Tones"
+              }
+            },
+            {
+              "id": 3660672032,
+              "title": "528 Hz Calm Your Mind",
+              "track_number": 5,
+              "duration": 238,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/4/0/b14de7ce84127b9fce411e4db02db300.mp3?hdnea=exp=1777454446~acl=/api/1/1/b/1/4/0/b14de7ce84127b9fce411e4db02db300.mp3*~data=user_id=0,application_id=42~hmac=fd84cbbe4639600989b89147207a4ee681d4ff54a0db7aa7cff7f5450f384310",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b54f36070b744a82ae3c22033b6fa410/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 76600632,
+                "name": "Miracle Tones"
+              }
+            },
+            {
+              "id": 3660672042,
+              "title": "528 Hz Fall Asleep",
+              "track_number": 6,
+              "duration": 211,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/d/e/0/7de3bcd4daa36c256e8b7033bcef4166.mp3?hdnea=exp=1777454446~acl=/api/1/1/7/d/e/0/7de3bcd4daa36c256e8b7033bcef4166.mp3*~data=user_id=0,application_id=42~hmac=cb77108099b0aadf9501678e1f9bdfd0becb5392f51cd8ae694082f16c84d232",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b54f36070b744a82ae3c22033b6fa410/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 76600632,
+                "name": "Miracle Tones"
+              }
+            },
+            {
+              "id": 3660672052,
+              "title": "528 Hz Deep Healing Sleep",
+              "track_number": 7,
+              "duration": 238,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/0/f/0/30fa9449a306bc7add67bec0f7f50793.mp3?hdnea=exp=1777454446~acl=/api/1/1/3/0/f/0/30fa9449a306bc7add67bec0f7f50793.mp3*~data=user_id=0,application_id=42~hmac=2921649d209ceda9913bd745794d82464733975612bda3c9dd5ea38522f682f9",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b54f36070b744a82ae3c22033b6fa410/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 76600632,
+                "name": "Miracle Tones"
+              }
+            },
+            {
+              "id": 3660672062,
+              "title": "528 Hz Healing Frequency",
+              "track_number": 8,
+              "duration": 229,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/7/b/0/f7b71378758a0b41cd61fe64c54f00bd.mp3?hdnea=exp=1777454446~acl=/api/1/1/f/7/b/0/f7b71378758a0b41cd61fe64c54f00bd.mp3*~data=user_id=0,application_id=42~hmac=2334466b61f8e1ad3041837ffcf9bc35459b0aacb34c4aa9c7ad1bc05a33c71e",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b54f36070b744a82ae3c22033b6fa410/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 76600632,
+                "name": "Miracle Tones"
+              }
+            },
+            {
+              "id": 3660672072,
+              "title": "528 Hz Sleep Meditation to Release Anxiety",
+              "track_number": 9,
+              "duration": 252,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/e/1/0/9e1622f31d8cf3c250828b946262e0e6.mp3?hdnea=exp=1777454446~acl=/api/1/1/9/e/1/0/9e1622f31d8cf3c250828b946262e0e6.mp3*~data=user_id=0,application_id=42~hmac=a83fa7d171299a9ba4cea695759d5f34cad877699826f03fd0b25091052979e1",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b54f36070b744a82ae3c22033b6fa410/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 76600632,
+                "name": "Miracle Tones"
+              }
+            },
+            {
+              "id": 3660672082,
+              "title": "528 Hz Healing Sleep",
+              "track_number": 10,
+              "duration": 201,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/d/a/0/9da73685fc28827650522b3e9562ce21.mp3?hdnea=exp=1777454446~acl=/api/1/1/9/d/a/0/9da73685fc28827650522b3e9562ce21.mp3*~data=user_id=0,application_id=42~hmac=55569c7f9d164fe3fc2c9ebbac80f877d73e138d308484ef277300fc92d46d49",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b54f36070b744a82ae3c22033b6fa410/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 76600632,
+                "name": "Miracle Tones"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 259,
+        "name": "Michael Jackson",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 963380951,
+            "title": "Michael: Songs From The Motion Picture",
+            "release_date": "2026-04-24",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 3967022511,
+              "title": "I'll Be There",
+              "track_number": 1,
+              "duration": 237,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/3/8/0/338be9b903e24cc98f642c9cdd265833.mp3?hdnea=exp=1777454448~acl=/api/1/1/3/3/8/0/338be9b903e24cc98f642c9cdd265833.mp3*~data=user_id=0,application_id=42~hmac=8dff87036699ea342d9a8f6c94e80a784f82f190d012462a812a6ad86b57d000",
+              "image": "https://cdn-images.dzcdn.net/images/cover/e4c533db8c3c0bd0c231b0fc00132321/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 75332,
+                "name": "Jackson 5"
+              }
+            },
+            {
+              "id": 3967022521,
+              "title": "Never Can Say Goodbye (Single Version)",
+              "track_number": 2,
+              "duration": 180,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/e/5/0/7e5b9c4d887e1981af89f37db0fd5b06.mp3?hdnea=exp=1777454448~acl=/api/1/1/7/e/5/0/7e5b9c4d887e1981af89f37db0fd5b06.mp3*~data=user_id=0,application_id=42~hmac=47b19980d9c9c157374414a2ca57615cdd8e1dd93cb4ec00dcc9245be669ca42",
+              "image": "https://cdn-images.dzcdn.net/images/cover/e4c533db8c3c0bd0c231b0fc00132321/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 75332,
+                "name": "Jackson 5"
+              }
+            },
+            {
+              "id": 3967022531,
+              "title": "Who's Lovin' You",
+              "track_number": 3,
+              "duration": 242,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/4/0/1340aa1dcc18fd213aeee692aa7890d6.mp3?hdnea=exp=1777454448~acl=/api/1/1/1/3/4/0/1340aa1dcc18fd213aeee692aa7890d6.mp3*~data=user_id=0,application_id=42~hmac=32922d86e6521d2bb5b6693f950f8735d210862c52509a0caa2b8139de301b64",
+              "image": "https://cdn-images.dzcdn.net/images/cover/e4c533db8c3c0bd0c231b0fc00132321/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 75332,
+                "name": "Jackson 5"
+              }
+            },
+            {
+              "id": 3967022541,
+              "title": "Medley: I Want You Back / ABC / The Love You Save (Live from the 1981 U.S. Tour)",
+              "track_number": 4,
+              "duration": 180,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/d/7/0/3d723e5c3673dba90ef0ac1530dfbbc5.mp3?hdnea=exp=1777454448~acl=/api/1/1/3/d/7/0/3d723e5c3673dba90ef0ac1530dfbbc5.mp3*~data=user_id=0,application_id=42~hmac=a41af5ee4d49b829095050dc4817c56f5ed450a696472a97666426904772697a",
+              "image": "https://cdn-images.dzcdn.net/images/cover/e4c533db8c3c0bd0c231b0fc00132321/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 980,
+                "name": "The Jacksons"
+              }
+            },
+            {
+              "id": 3967022551,
+              "title": "Ben (Live from the 1981 U.S. Tour)",
+              "track_number": 5,
+              "duration": 186,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/f/5/0/0f56c3e61989cfdd155f740c6dce7d11.mp3?hdnea=exp=1777454448~acl=/api/1/1/0/f/5/0/0f56c3e61989cfdd155f740c6dce7d11.mp3*~data=user_id=0,application_id=42~hmac=461326fae7f8e841e5b9a798a56b0fccb917c9659d72cd383a274e249f0053dc",
+              "image": "https://cdn-images.dzcdn.net/images/cover/e4c533db8c3c0bd0c231b0fc00132321/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 980,
+                "name": "The Jacksons"
+              }
+            },
+            {
+              "id": 3967022561,
+              "title": "Don't Stop 'Til You Get Enough",
+              "track_number": 6,
+              "duration": 365,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/0/9/0/2096f50853cd34db82fe44da847472ce.mp3?hdnea=exp=1777454448~acl=/api/1/1/2/0/9/0/2096f50853cd34db82fe44da847472ce.mp3*~data=user_id=0,application_id=42~hmac=a783472efb4b5d19bf2e9d1a231b5cbcc6e0e94d1863c674d506c29ed631ac6a",
+              "image": "https://cdn-images.dzcdn.net/images/cover/e4c533db8c3c0bd0c231b0fc00132321/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 259,
+                "name": "Michael Jackson"
+              }
+            },
+            {
+              "id": 3967022571,
+              "title": "Beat It",
+              "track_number": 7,
+              "duration": 259,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/9/0/e298f12040cd16e678888cc6080d6618.mp3?hdnea=exp=1777454448~acl=/api/1/1/e/2/9/0/e298f12040cd16e678888cc6080d6618.mp3*~data=user_id=0,application_id=42~hmac=4958bc7610ca715ca48b979041afc033378f5d229a68c43fdfaa5acfdf65cac6",
+              "image": "https://cdn-images.dzcdn.net/images/cover/e4c533db8c3c0bd0c231b0fc00132321/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 259,
+                "name": "Michael Jackson"
+              }
+            },
+            {
+              "id": 3967022581,
+              "title": "Thriller",
+              "track_number": 8,
+              "duration": 358,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/f/0/0/8f0248e2811a0774bb21388bb7c90245.mp3?hdnea=exp=1777454448~acl=/api/1/1/8/f/0/0/8f0248e2811a0774bb21388bb7c90245.mp3*~data=user_id=0,application_id=42~hmac=b13f5d573cac4f0fa8d9d1e763d7b7ce0c5cdbfc7c02378ea9021c3abf15495c",
+              "image": "https://cdn-images.dzcdn.net/images/cover/e4c533db8c3c0bd0c231b0fc00132321/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 259,
+                "name": "Michael Jackson"
+              }
+            },
+            {
+              "id": 3967022591,
+              "title": "Billie Jean",
+              "track_number": 9,
+              "duration": 294,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/4/6/0/346f6a427bd4925e60fd853915178986.mp3?hdnea=exp=1777454448~acl=/api/1/1/3/4/6/0/346f6a427bd4925e60fd853915178986.mp3*~data=user_id=0,application_id=42~hmac=19c2b23dbec898f74a9d3f1c3c4316fb107ace3151598e8506a6c89f2352b3ae",
+              "image": "https://cdn-images.dzcdn.net/images/cover/e4c533db8c3c0bd0c231b0fc00132321/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 259,
+                "name": "Michael Jackson"
+              }
+            },
+            {
+              "id": 3967022601,
+              "title": "Wanna Be Startin' Somethin'",
+              "track_number": 10,
+              "duration": 363,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/c/a/0/9cae7a063a550a28632cff8a46e28909.mp3?hdnea=exp=1777454448~acl=/api/1/1/9/c/a/0/9cae7a063a550a28632cff8a46e28909.mp3*~data=user_id=0,application_id=42~hmac=1f0de4b432b539f70055afd43479db05e90279c6bad184489fe57633afc7df8b",
+              "image": "https://cdn-images.dzcdn.net/images/cover/e4c533db8c3c0bd0c231b0fc00132321/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 259,
+                "name": "Michael Jackson"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 12246,
+        "name": "Taylor Swift",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 829966251,
+            "title": "The Life of a Showgirl",
+            "release_date": "2025-10-03",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 3579685431,
+              "title": "The Fate of Ophelia",
+              "track_number": 1,
+              "duration": 226,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/4/9/0/049e295c37bff556879080a0ec19adb3.mp3?hdnea=exp=1777454450~acl=/api/1/1/0/4/9/0/049e295c37bff556879080a0ec19adb3.mp3*~data=user_id=0,application_id=42~hmac=2e5fb023b39d38b4811f53b0e8a1d9fb668eb274aa1b3721fdc4d23dc2aafdaf",
+              "image": "https://cdn-images.dzcdn.net/images/cover/d0bed55a0efb3c5c3ddb3dacda67d9b3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12246,
+                "name": "Taylor Swift"
+              }
+            },
+            {
+              "id": 3579685441,
+              "title": "Elizabeth Taylor",
+              "track_number": 2,
+              "duration": 208,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/4/c/0/94c22ac7ec9fde09bd1859da654e2f76.mp3?hdnea=exp=1777454450~acl=/api/1/1/9/4/c/0/94c22ac7ec9fde09bd1859da654e2f76.mp3*~data=user_id=0,application_id=42~hmac=b288f410c8d85f73a743193ff55eb64aca759a47b516fabe41121a30cdea58c0",
+              "image": "https://cdn-images.dzcdn.net/images/cover/d0bed55a0efb3c5c3ddb3dacda67d9b3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12246,
+                "name": "Taylor Swift"
+              }
+            },
+            {
+              "id": 3579685451,
+              "title": "Opalite",
+              "track_number": 3,
+              "duration": 235,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/8/0/d485bbe305d9cff77bdd9307e423c8b5.mp3?hdnea=exp=1777454450~acl=/api/1/1/d/4/8/0/d485bbe305d9cff77bdd9307e423c8b5.mp3*~data=user_id=0,application_id=42~hmac=bf8edeac06ffb155782770999cb9e631e949ab2b6a62e86b7792700d81f0cc01",
+              "image": "https://cdn-images.dzcdn.net/images/cover/d0bed55a0efb3c5c3ddb3dacda67d9b3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12246,
+                "name": "Taylor Swift"
+              }
+            },
+            {
+              "id": 3579685461,
+              "title": "Father Figure",
+              "track_number": 4,
+              "duration": 212,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/a/4/0/2a4156a77a262647ff8da487caa446e3.mp3?hdnea=exp=1777454450~acl=/api/1/1/2/a/4/0/2a4156a77a262647ff8da487caa446e3.mp3*~data=user_id=0,application_id=42~hmac=602a7c877942936d2cb4232c96a7242e14557a321b721fd9384ded41e8d5625d",
+              "image": "https://cdn-images.dzcdn.net/images/cover/d0bed55a0efb3c5c3ddb3dacda67d9b3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12246,
+                "name": "Taylor Swift"
+              }
+            },
+            {
+              "id": 3579685471,
+              "title": "Eldest Daughter",
+              "track_number": 5,
+              "duration": 246,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/b/8/0/cb8e277ae26804d3d37fa3018246a4d1.mp3?hdnea=exp=1777454450~acl=/api/1/1/c/b/8/0/cb8e277ae26804d3d37fa3018246a4d1.mp3*~data=user_id=0,application_id=42~hmac=df657525f6a0012b2884de3176d34dcf8a09e4d2751d4c824f9dff370c6e997a",
+              "image": "https://cdn-images.dzcdn.net/images/cover/d0bed55a0efb3c5c3ddb3dacda67d9b3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12246,
+                "name": "Taylor Swift"
+              }
+            },
+            {
+              "id": 3579685481,
+              "title": "Ruin The Friendship",
+              "track_number": 6,
+              "duration": 220,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/3/c/0/93c513b72c2c7265472e74860f6865a8.mp3?hdnea=exp=1777454450~acl=/api/1/1/9/3/c/0/93c513b72c2c7265472e74860f6865a8.mp3*~data=user_id=0,application_id=42~hmac=7ea21335ceddcc9889e31360f199fc71c814f28c6f3c65532030a87bfcc8099e",
+              "image": "https://cdn-images.dzcdn.net/images/cover/d0bed55a0efb3c5c3ddb3dacda67d9b3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12246,
+                "name": "Taylor Swift"
+              }
+            },
+            {
+              "id": 3579685491,
+              "title": "Actually Romantic",
+              "track_number": 7,
+              "duration": 163,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/3/0/703d4ef9e3cddae1ca9af852b1298411.mp3?hdnea=exp=1777454450~acl=/api/1/1/7/0/3/0/703d4ef9e3cddae1ca9af852b1298411.mp3*~data=user_id=0,application_id=42~hmac=b66fd94e546f5d9687c80ff5b1453bb536e0af867955c9739c1aae3f2fe317e9",
+              "image": "https://cdn-images.dzcdn.net/images/cover/d0bed55a0efb3c5c3ddb3dacda67d9b3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12246,
+                "name": "Taylor Swift"
+              }
+            },
+            {
+              "id": 3579685501,
+              "title": "Wi$h Li$t",
+              "track_number": 8,
+              "duration": 207,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/3/7/0/63727b1c336ac1a2cc5a6acca07f97fe.mp3?hdnea=exp=1777454450~acl=/api/1/1/6/3/7/0/63727b1c336ac1a2cc5a6acca07f97fe.mp3*~data=user_id=0,application_id=42~hmac=b0bed720a1eea279b5fbac1530a2583f04e1e50bf659c52b1f1dbcf09f354e9c",
+              "image": "https://cdn-images.dzcdn.net/images/cover/d0bed55a0efb3c5c3ddb3dacda67d9b3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12246,
+                "name": "Taylor Swift"
+              }
+            },
+            {
+              "id": 3579685521,
+              "title": "Wood",
+              "track_number": 9,
+              "duration": 150,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/2/c/0/62c0d535e79eff1a368ab0750bb1a7c4.mp3?hdnea=exp=1777454450~acl=/api/1/1/6/2/c/0/62c0d535e79eff1a368ab0750bb1a7c4.mp3*~data=user_id=0,application_id=42~hmac=1dd860f5fdec43ea00f83ee7a28470c714ec876a7c8412c6a5490f37280ae269",
+              "image": "https://cdn-images.dzcdn.net/images/cover/d0bed55a0efb3c5c3ddb3dacda67d9b3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12246,
+                "name": "Taylor Swift"
+              }
+            },
+            {
+              "id": 3579685551,
+              "title": "CANCELLED!",
+              "track_number": 10,
+              "duration": 211,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/8/7/0/f87801cbf04400bc22d931f50aea3a19.mp3?hdnea=exp=1777454450~acl=/api/1/1/f/8/7/0/f87801cbf04400bc22d931f50aea3a19.mp3*~data=user_id=0,application_id=42~hmac=471a6ccf103c7ae3f710ef1db4bfb3bd5b8180fa2fdb8c1e6056451816d9c1da",
+              "image": "https://cdn-images.dzcdn.net/images/cover/d0bed55a0efb3c5c3ddb3dacda67d9b3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12246,
+                "name": "Taylor Swift"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 13925,
+        "name": "Jimmy Smith",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 959049941,
+            "title": "REFRAME",
+            "release_date": "2026-04-20",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 3954295101,
+              "title": "Stronger ThanYou Think",
+              "track_number": 1,
+              "duration": 235,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/5/3/0/153c0eda37545ebf7deed10814c39406.mp3?hdnea=exp=1777454452~acl=/api/1/1/1/5/3/0/153c0eda37545ebf7deed10814c39406.mp3*~data=user_id=0,application_id=42~hmac=689ee3362fafc2fddac06fea9ab2071fd64b490356ce58748b0712751f89c24c",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b5c1d73f0c27a542637718aaa9206705/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 13925,
+                "name": "Jimmy Smith"
+              }
+            },
+            {
+              "id": 3954295111,
+              "title": "Good Day",
+              "track_number": 2,
+              "duration": 165,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/4/e/0/94e945592d0fd8d745b3552e5b038260.mp3?hdnea=exp=1777454452~acl=/api/1/1/9/4/e/0/94e945592d0fd8d745b3552e5b038260.mp3*~data=user_id=0,application_id=42~hmac=7be5e1bfa2d56ae16f28a5caf5265b2a20707e8279e56d9221016d98d9fdf517",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b5c1d73f0c27a542637718aaa9206705/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 13925,
+                "name": "Jimmy Smith"
+              }
+            },
+            {
+              "id": 3954295121,
+              "title": "The Space",
+              "track_number": 3,
+              "duration": 230,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/f/3/0/ff36874e59c80c1c970a29a7212ad1f3.mp3?hdnea=exp=1777454452~acl=/api/1/1/f/f/3/0/ff36874e59c80c1c970a29a7212ad1f3.mp3*~data=user_id=0,application_id=42~hmac=4b5df9c8b3091081ac4faf01d668219f1250bc5f02e2e81f2807a4484a078b64",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b5c1d73f0c27a542637718aaa9206705/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 13925,
+                "name": "Jimmy Smith"
+              }
+            },
+            {
+              "id": 3954295131,
+              "title": "Now",
+              "track_number": 4,
+              "duration": 172,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/e/0/0/4e008935dc988641c2197845607876e5.mp3?hdnea=exp=1777454452~acl=/api/1/1/4/e/0/0/4e008935dc988641c2197845607876e5.mp3*~data=user_id=0,application_id=42~hmac=2d75a764a762e23735a2fdef850165a1f629aa58544e4ca14051820d24d2cf2c",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b5c1d73f0c27a542637718aaa9206705/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 13925,
+                "name": "Jimmy Smith"
+              }
+            },
+            {
+              "id": 3954295141,
+              "title": "Another one",
+              "track_number": 5,
+              "duration": 145,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/4/8/0/e48c4775afa59817da4e8047859f38df.mp3?hdnea=exp=1777454452~acl=/api/1/1/e/4/8/0/e48c4775afa59817da4e8047859f38df.mp3*~data=user_id=0,application_id=42~hmac=73bb699f6b9256c32550d288f7208494e346fc0b171355691acf6a5e2e20db11",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b5c1d73f0c27a542637718aaa9206705/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 13925,
+                "name": "Jimmy Smith"
+              }
+            },
+            {
+              "id": 3954295151,
+              "title": "Bring On The Storm",
+              "track_number": 6,
+              "duration": 198,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/4/f/0/64f5fc71c93c28f695a282f8be62162d.mp3?hdnea=exp=1777454452~acl=/api/1/1/6/4/f/0/64f5fc71c93c28f695a282f8be62162d.mp3*~data=user_id=0,application_id=42~hmac=199011b2f983b3082dc434699a256b4f022c30da0f69193a437e14b7c3757d45",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b5c1d73f0c27a542637718aaa9206705/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 13925,
+                "name": "Jimmy Smith"
+              }
+            },
+            {
+              "id": 3954295171,
+              "title": "Lonely",
+              "track_number": 7,
+              "duration": 199,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/7/0/2d72aa42ff873fa4d7e9791249b4d619.mp3?hdnea=exp=1777454452~acl=/api/1/1/2/d/7/0/2d72aa42ff873fa4d7e9791249b4d619.mp3*~data=user_id=0,application_id=42~hmac=ac132e938445d6c6de6995c7c178d04775c8bb08d9cce28669365b5220720ddc",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b5c1d73f0c27a542637718aaa9206705/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 13925,
+                "name": "Jimmy Smith"
+              }
+            },
+            {
+              "id": 3954295191,
+              "title": "Trying My Best",
+              "track_number": 8,
+              "duration": 148,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/d/f/0/bdf722b7b75ca5e9f99b9282deefbeaa.mp3?hdnea=exp=1777454452~acl=/api/1/1/b/d/f/0/bdf722b7b75ca5e9f99b9282deefbeaa.mp3*~data=user_id=0,application_id=42~hmac=cafb4e12d19279d4d3fc299d40506891aee5b85b6b61f33c3755494d209822e7",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b5c1d73f0c27a542637718aaa9206705/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 13925,
+                "name": "Jimmy Smith"
+              }
+            },
+            {
+              "id": 3954295211,
+              "title": "Alchemy",
+              "track_number": 9,
+              "duration": 199,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/7/0/137b0fd74b6117bd6b17981c116c9c3f.mp3?hdnea=exp=1777454452~acl=/api/1/1/1/3/7/0/137b0fd74b6117bd6b17981c116c9c3f.mp3*~data=user_id=0,application_id=42~hmac=72cb93ee36eeb6df87b0a820151a22af8a5b813e9eb34728cb99b131b3f82652",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b5c1d73f0c27a542637718aaa9206705/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 13925,
+                "name": "Jimmy Smith"
+              }
+            },
+            {
+              "id": 3954295231,
+              "title": "Another Way Around",
+              "track_number": 10,
+              "duration": 214,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/d/0/2ed53c928a5f0a4aa6eecdbdeddab876.mp3?hdnea=exp=1777454452~acl=/api/1/1/2/e/d/0/2ed53c928a5f0a4aa6eecdbdeddab876.mp3*~data=user_id=0,application_id=42~hmac=128fa4a23e17f6bef7089b1a893a47fd522144dea9ba662652e4c20c64d54908",
+              "image": "https://cdn-images.dzcdn.net/images/cover/b5c1d73f0c27a542637718aaa9206705/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 13925,
+                "name": "Jimmy Smith"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 165816,
+        "name": "NYC Jazz Quartett",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 958905421,
+            "title": "Velvet City Swing",
+            "release_date": "2026-04-25",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 3953929451,
+              "title": "After Dark Groove",
+              "track_number": 1,
+              "duration": 173,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/d/0/98d4aa22e2ab1cca51f2d516ac865188.mp3?hdnea=exp=1777454454~acl=/api/1/1/9/8/d/0/98d4aa22e2ab1cca51f2d516ac865188.mp3*~data=user_id=0,application_id=42~hmac=c1f15c881a00f251d97262ee0e0d7c0ed6238b0465030526e27dcc5034f17ba7",
+              "image": "https://cdn-images.dzcdn.net/images/cover/84770b336a5b46562a6f68118fe531c2/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 350751,
+                "name": "Glen Lucas"
+              }
+            },
+            {
+              "id": 3953929461,
+              "title": "City Lights Swing",
+              "track_number": 2,
+              "duration": 175,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/c/f/0/fcf279fc371ff5f2ea1e5c2f1baa1fe2.mp3?hdnea=exp=1777454454~acl=/api/1/1/f/c/f/0/fcf279fc371ff5f2ea1e5c2f1baa1fe2.mp3*~data=user_id=0,application_id=42~hmac=cff88b343d8a2b425a23a415562c0a80dcf9bf97f1495e15f8dd9057eb917976",
+              "image": "https://cdn-images.dzcdn.net/images/cover/84770b336a5b46562a6f68118fe531c2/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 350751,
+                "name": "Glen Lucas"
+              }
+            },
+            {
+              "id": 3953929471,
+              "title": "Cool Breeze Jazz",
+              "track_number": 3,
+              "duration": 167,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/3/0/0/430a4953736f4eb153771887db87545f.mp3?hdnea=exp=1777454454~acl=/api/1/1/4/3/0/0/430a4953736f4eb153771887db87545f.mp3*~data=user_id=0,application_id=42~hmac=a1133bd29d1b0fd0609877f0a852dbbd0723558d2cdcf1ad5cb4e4f1413e6dc2",
+              "image": "https://cdn-images.dzcdn.net/images/cover/84770b336a5b46562a6f68118fe531c2/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 350751,
+                "name": "Glen Lucas"
+              }
+            },
+            {
+              "id": 3953929481,
+              "title": "Golden Hour Jazz",
+              "track_number": 4,
+              "duration": 167,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/d/c/0/adcb6388e5416dda1ce94dfa0c8ea0ca.mp3?hdnea=exp=1777454454~acl=/api/1/1/a/d/c/0/adcb6388e5416dda1ce94dfa0c8ea0ca.mp3*~data=user_id=0,application_id=42~hmac=636693256298bd0998dbc50fae249678549531080216141347575abf9772a445",
+              "image": "https://cdn-images.dzcdn.net/images/cover/84770b336a5b46562a6f68118fe531c2/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 350751,
+                "name": "Glen Lucas"
+              }
+            },
+            {
+              "id": 3953929491,
+              "title": "Late Night Sax",
+              "track_number": 5,
+              "duration": 165,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/7/0/d478e94924da26139868b752a21d9e6b.mp3?hdnea=exp=1777454454~acl=/api/1/1/d/4/7/0/d478e94924da26139868b752a21d9e6b.mp3*~data=user_id=0,application_id=42~hmac=a30d66d40c5d560db697ae553fedf879f5c62c77b435fe8d3ff2989a8428c9a1",
+              "image": "https://cdn-images.dzcdn.net/images/cover/84770b336a5b46562a6f68118fe531c2/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 350751,
+                "name": "Glen Lucas"
+              }
+            },
+            {
+              "id": 3953929501,
+              "title": "Midnight Blue Jazz",
+              "track_number": 6,
+              "duration": 165,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/7/4/0/1743d441a904630b6431e208572bd9c9.mp3?hdnea=exp=1777454454~acl=/api/1/1/1/7/4/0/1743d441a904630b6431e208572bd9c9.mp3*~data=user_id=0,application_id=42~hmac=07404c868fd758b236310e25a7e1cdc8e0cbdb3afb5cdcbc1579d0619094292b",
+              "image": "https://cdn-images.dzcdn.net/images/cover/84770b336a5b46562a6f68118fe531c2/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 350751,
+                "name": "Glen Lucas"
+              }
+            },
+            {
+              "id": 3953929511,
+              "title": "Moonlight Jazz Club",
+              "track_number": 7,
+              "duration": 167,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/d/c/0/3dc6de76f2514767ffb343b0b5564a56.mp3?hdnea=exp=1777454454~acl=/api/1/1/3/d/c/0/3dc6de76f2514767ffb343b0b5564a56.mp3*~data=user_id=0,application_id=42~hmac=43f0c969905e928a91d3e56ecf9d442cb91203dfe721ecfae12085ef4b8b64ad",
+              "image": "https://cdn-images.dzcdn.net/images/cover/84770b336a5b46562a6f68118fe531c2/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 350751,
+                "name": "Glen Lucas"
+              }
+            },
+            {
+              "id": 3953929521,
+              "title": "Slow Bourbon Jazz (En Vivo)",
+              "track_number": 8,
+              "duration": 152,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/9/0/e3997bd1157f9669f73c04cf313d7a53.mp3?hdnea=exp=1777454454~acl=/api/1/1/e/3/9/0/e3997bd1157f9669f73c04cf313d7a53.mp3*~data=user_id=0,application_id=42~hmac=85041f430a51dec06e64f8cf183fe0eedeee6e9cd0b9b49beaeae61a4b52defc",
+              "image": "https://cdn-images.dzcdn.net/images/cover/84770b336a5b46562a6f68118fe531c2/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 350751,
+                "name": "Glen Lucas"
+              }
+            },
+            {
+              "id": 3953929531,
+              "title": "Smooth Night Session",
+              "track_number": 9,
+              "duration": 166,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/4/4/0/a44cfe31dc99374e7250a9d67bb409f1.mp3?hdnea=exp=1777454454~acl=/api/1/1/a/4/4/0/a44cfe31dc99374e7250a9d67bb409f1.mp3*~data=user_id=0,application_id=42~hmac=abfa8a2c17be8f27858a7b66fee839e8cf694b3afe75eedb1ea7736983480451",
+              "image": "https://cdn-images.dzcdn.net/images/cover/84770b336a5b46562a6f68118fe531c2/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 350751,
+                "name": "Glen Lucas"
+              }
+            },
+            {
+              "id": 3953929541,
+              "title": "Soft Corner Swing",
+              "track_number": 10,
+              "duration": 165,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/c/0/0/9c0ec2c66ea33b8ec7898599d42df2c1.mp3?hdnea=exp=1777454454~acl=/api/1/1/9/c/0/0/9c0ec2c66ea33b8ec7898599d42df2c1.mp3*~data=user_id=0,application_id=42~hmac=303e28598d9880ed49072e8a1ce5242cd412eb372bdfa3abb88ab85a15f5c696",
+              "image": "https://cdn-images.dzcdn.net/images/cover/84770b336a5b46562a6f68118fe531c2/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 350751,
+                "name": "Glen Lucas"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 525046,
+        "name": "Kendrick Lamar",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 789044231,
+            "title": "Live in Amsterdam 2012 (Live)",
+            "release_date": "2025-07-15",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 3463201691,
+              "title": "Right on Time (Live)",
+              "track_number": 1,
+              "duration": 117,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/d/9/0/ed9c23becbe118a82de603e8879e09fe.mp3?hdnea=exp=1777454457~acl=/api/1/1/e/d/9/0/ed9c23becbe118a82de603e8879e09fe.mp3*~data=user_id=0,application_id=42~hmac=7575187b0fbafc481935aa80a23e1ad0d93a29be848a17bb4f8fd1ea27ddaa8a",
+              "image": "https://cdn-images.dzcdn.net/images/cover/cae2245174d0f56b69e81cfb39f14b6e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 525046,
+                "name": "Kendrick Lamar"
+              }
+            },
+            {
+              "id": 3463201711,
+              "title": "Hol' Up (Live)",
+              "track_number": 2,
+              "duration": 209,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/c/b/0/6cb1312b8c202cb1505af7395841de76.mp3?hdnea=exp=1777454457~acl=/api/1/1/6/c/b/0/6cb1312b8c202cb1505af7395841de76.mp3*~data=user_id=0,application_id=42~hmac=76f4da30f56918ee67060d64f66bda2492bc34a1dccd785eccde8ab9b9723a25",
+              "image": "https://cdn-images.dzcdn.net/images/cover/cae2245174d0f56b69e81cfb39f14b6e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 525046,
+                "name": "Kendrick Lamar"
+              }
+            },
+            {
+              "id": 3463201731,
+              "title": "Fuckin' Problem (Live)",
+              "track_number": 3,
+              "duration": 183,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/f/5/0/3f559e5b04b07d54079aa12dbc2505cb.mp3?hdnea=exp=1777454457~acl=/api/1/1/3/f/5/0/3f559e5b04b07d54079aa12dbc2505cb.mp3*~data=user_id=0,application_id=42~hmac=05eafb26d76ef50c7d8129dc2cf67a5ca1ad1c509ac3eea92618e2cc71724354",
+              "image": "https://cdn-images.dzcdn.net/images/cover/cae2245174d0f56b69e81cfb39f14b6e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 525046,
+                "name": "Kendrick Lamar"
+              }
+            },
+            {
+              "id": 3463201761,
+              "title": "A.d.h.d (Live)",
+              "track_number": 4,
+              "duration": 279,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/2/2/0/b2298e03264abea496a448f3bd3b4ac1.mp3?hdnea=exp=1777454457~acl=/api/1/1/b/2/2/0/b2298e03264abea496a448f3bd3b4ac1.mp3*~data=user_id=0,application_id=42~hmac=1cecba9ab21637b3482605329cfecda89b616591c59b00f17fcce7cb1284edf0",
+              "image": "https://cdn-images.dzcdn.net/images/cover/cae2245174d0f56b69e81cfb39f14b6e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 525046,
+                "name": "Kendrick Lamar"
+              }
+            },
+            {
+              "id": 3463201791,
+              "title": "Money Trees (Live)",
+              "track_number": 5,
+              "duration": 316,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/8/a/0/88a00fc00306d7076b8812e55cc44d80.mp3?hdnea=exp=1777454457~acl=/api/1/1/8/8/a/0/88a00fc00306d7076b8812e55cc44d80.mp3*~data=user_id=0,application_id=42~hmac=525aa65b8e37f2fd92dc5988ac3b478ee4a98799271e5148df6075c06b9eb97b",
+              "image": "https://cdn-images.dzcdn.net/images/cover/cae2245174d0f56b69e81cfb39f14b6e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 525046,
+                "name": "Kendrick Lamar"
+              }
+            },
+            {
+              "id": 3463201821,
+              "title": "Backseat Freestyle (Live)",
+              "track_number": 6,
+              "duration": 253,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/c/c/0/8ccb0b656042f0b923f5bfc8449a8db5.mp3?hdnea=exp=1777454457~acl=/api/1/1/8/c/c/0/8ccb0b656042f0b923f5bfc8449a8db5.mp3*~data=user_id=0,application_id=42~hmac=8b6aeab1f44b77d13dc6f4c14aae17b635b8ff1ce1d8f2dabee3c9a966b1ccc3",
+              "image": "https://cdn-images.dzcdn.net/images/cover/cae2245174d0f56b69e81cfb39f14b6e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 525046,
+                "name": "Kendrick Lamar"
+              }
+            },
+            {
+              "id": 3463201841,
+              "title": "Bitch, Don't Kill My Vibe (Live)",
+              "track_number": 7,
+              "duration": 268,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/a/3/0/9a3aec1e06bade4c9101098885ca496d.mp3?hdnea=exp=1777454457~acl=/api/1/1/9/a/3/0/9a3aec1e06bade4c9101098885ca496d.mp3*~data=user_id=0,application_id=42~hmac=62a75b748c6cc8103f44e48f0854993693e1036cf33ba46a8f341e1c79e9e64d",
+              "image": "https://cdn-images.dzcdn.net/images/cover/cae2245174d0f56b69e81cfb39f14b6e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 525046,
+                "name": "Kendrick Lamar"
+              }
+            },
+            {
+              "id": 3463201861,
+              "title": "M.a.a.d City (Live)",
+              "track_number": 8,
+              "duration": 167,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/9/4/0/1944f70d5fd74231edb39b19bc422af5.mp3?hdnea=exp=1777454457~acl=/api/1/1/1/9/4/0/1944f70d5fd74231edb39b19bc422af5.mp3*~data=user_id=0,application_id=42~hmac=f712ec80c881268df0fec4f6505441b9fa1dd802a988ae0e0740f29d27307261",
+              "image": "https://cdn-images.dzcdn.net/images/cover/cae2245174d0f56b69e81cfb39f14b6e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 525046,
+                "name": "Kendrick Lamar"
+              }
+            },
+            {
+              "id": 3463201891,
+              "title": "Swimming Pools (Drank) (Live)",
+              "track_number": 9,
+              "duration": 223,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/e/4/0/ae44c1f5ef01432b4baaf544d45f805e.mp3?hdnea=exp=1777454457~acl=/api/1/1/a/e/4/0/ae44c1f5ef01432b4baaf544d45f805e.mp3*~data=user_id=0,application_id=42~hmac=d8c6cc16d63663f6d0e967528e40aabe63b649849dccb0b28f5fe7f63fc185ad",
+              "image": "https://cdn-images.dzcdn.net/images/cover/cae2245174d0f56b69e81cfb39f14b6e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 525046,
+                "name": "Kendrick Lamar"
+              }
+            },
+            {
+              "id": 3463201911,
+              "title": "Cartoon & Cereal (Live)",
+              "track_number": 10,
+              "duration": 193,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/e/1/0/ae167d332609e3679c7b02cdedffd9b8.mp3?hdnea=exp=1777454457~acl=/api/1/1/a/e/1/0/ae167d332609e3679c7b02cdedffd9b8.mp3*~data=user_id=0,application_id=42~hmac=e354a90a98e1bd309a6187e987c0c9e415e6eecef7a2922a15d7b16e193f02c2",
+              "image": "https://cdn-images.dzcdn.net/images/cover/cae2245174d0f56b69e81cfb39f14b6e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 525046,
+                "name": "Kendrick Lamar"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 75104,
+        "name": "Wes Montgomery",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 145471662,
+            "title": "Work From Home with Wes Montgomery",
+            "release_date": "2020-05-01",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 947297022,
+              "title": "The Shadow Of Your Smile",
+              "track_number": 1,
+              "duration": 137,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/2/d/0/a2dd8e16eb725c8dd52608c2ea718573.mp3?hdnea=exp=1777454459~acl=/api/1/1/a/2/d/0/a2dd8e16eb725c8dd52608c2ea718573.mp3*~data=user_id=0,application_id=42~hmac=8c477aba8d43a52c79960e22be837b4603c7bc21a9de5c9fd33b33db94c2160c",
+              "image": "https://cdn-images.dzcdn.net/images/cover/3263d0ad26c565d7e1de4e85fd9bd7da/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 75104,
+                "name": "Wes Montgomery"
+              }
+            },
+            {
+              "id": 947297032,
+              "title": "California Nights",
+              "track_number": 2,
+              "duration": 148,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/e/a/0/4ea71546684636484dee45706923cb46.mp3?hdnea=exp=1777454459~acl=/api/1/1/4/e/a/0/4ea71546684636484dee45706923cb46.mp3*~data=user_id=0,application_id=42~hmac=58d7525f9fe8ecc6d69b8ab4c14f425526402ef1f0384a318b38ed350f61b0d2",
+              "image": "https://cdn-images.dzcdn.net/images/cover/3263d0ad26c565d7e1de4e85fd9bd7da/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 75104,
+                "name": "Wes Montgomery"
+              }
+            },
+            {
+              "id": 947297042,
+              "title": "How Insensitive",
+              "track_number": 3,
+              "duration": 226,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/b/8/0/cb8393ac7d4b74bf42b86934157ce3b3.mp3?hdnea=exp=1777454459~acl=/api/1/1/c/b/8/0/cb8393ac7d4b74bf42b86934157ce3b3.mp3*~data=user_id=0,application_id=42~hmac=3a8e4ba48939a50373fc118e7b540e3aed44a5baea3eb38bc81cbb02a177de20",
+              "image": "https://cdn-images.dzcdn.net/images/cover/3263d0ad26c565d7e1de4e85fd9bd7da/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 75104,
+                "name": "Wes Montgomery"
+              }
+            },
+            {
+              "id": 947297052,
+              "title": "Goin' Out Of My Head",
+              "track_number": 4,
+              "duration": 132,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/c/e/0/6ce5f41c5329366190b2d76a08a731d1.mp3?hdnea=exp=1777454459~acl=/api/1/1/6/c/e/0/6ce5f41c5329366190b2d76a08a731d1.mp3*~data=user_id=0,application_id=42~hmac=28c0614bd9743c8e58809e0ac622849617c62405bebe418fc9c132d2dfcc1c12",
+              "image": "https://cdn-images.dzcdn.net/images/cover/3263d0ad26c565d7e1de4e85fd9bd7da/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 75104,
+                "name": "Wes Montgomery"
+              }
+            },
+            {
+              "id": 947297062,
+              "title": "Bumpin' On Sunset",
+              "track_number": 5,
+              "duration": 289,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/8/8/0/6884a0d06d789f6cf74f096f8f907b01.mp3?hdnea=exp=1777454459~acl=/api/1/1/6/8/8/0/6884a0d06d789f6cf74f096f8f907b01.mp3*~data=user_id=0,application_id=42~hmac=8136d3f08e5f6812e7a6d0073af004b8c8c27e08bf3e9abd62aa81b30f72ac00",
+              "image": "https://cdn-images.dzcdn.net/images/cover/3263d0ad26c565d7e1de4e85fd9bd7da/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 75104,
+                "name": "Wes Montgomery"
+              }
+            },
+            {
+              "id": 947297072,
+              "title": "Road Song",
+              "track_number": 6,
+              "duration": 233,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/1/c/0/11ca2ce7202aeab56a525b84b1e2e5bf.mp3?hdnea=exp=1777454459~acl=/api/1/1/1/1/c/0/11ca2ce7202aeab56a525b84b1e2e5bf.mp3*~data=user_id=0,application_id=42~hmac=d505062ed3ec799555e578f7b67752be180243c5f3a35d08fc8366a7e4377950",
+              "image": "https://cdn-images.dzcdn.net/images/cover/3263d0ad26c565d7e1de4e85fd9bd7da/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 75104,
+                "name": "Wes Montgomery"
+              }
+            },
+            {
+              "id": 947297082,
+              "title": "I Say A Little Prayer For You",
+              "track_number": 7,
+              "duration": 196,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/7/2/0/e72c20774254c23f9e30b420612981cb.mp3?hdnea=exp=1777454459~acl=/api/1/1/e/7/2/0/e72c20774254c23f9e30b420612981cb.mp3*~data=user_id=0,application_id=42~hmac=4dafd5a09bf6a2ccea381add44dc565375c450e426f8a04d8868b509ca3c0bb2",
+              "image": "https://cdn-images.dzcdn.net/images/cover/3263d0ad26c565d7e1de4e85fd9bd7da/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 75104,
+                "name": "Wes Montgomery"
+              }
+            },
+            {
+              "id": 947297092,
+              "title": "Wives And Lovers",
+              "track_number": 8,
+              "duration": 180,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/c/5/0/9c5e7c02996f4c9154c4881806137d82.mp3?hdnea=exp=1777454459~acl=/api/1/1/9/c/5/0/9c5e7c02996f4c9154c4881806137d82.mp3*~data=user_id=0,application_id=42~hmac=ffd3c4799cfb86081da5424470442e49684a4f70d2883189357da6b1dceb017a",
+              "image": "https://cdn-images.dzcdn.net/images/cover/3263d0ad26c565d7e1de4e85fd9bd7da/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 75104,
+                "name": "Wes Montgomery"
+              }
+            },
+            {
+              "id": 947297102,
+              "title": "Call Me",
+              "track_number": 9,
+              "duration": 191,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/9/9/0/199e873e49242edc35a92a5fec7710bc.mp3?hdnea=exp=1777454459~acl=/api/1/1/1/9/9/0/199e873e49242edc35a92a5fec7710bc.mp3*~data=user_id=0,application_id=42~hmac=b7d5a8460eed3c74ab177ce407ae82d8bcea9cad6dddb82ed1774ac859ea002b",
+              "image": "https://cdn-images.dzcdn.net/images/cover/3263d0ad26c565d7e1de4e85fd9bd7da/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 13925,
+                "name": "Jimmy Smith"
+              }
+            },
+            {
+              "id": 947297112,
+              "title": "Windy",
+              "track_number": 10,
+              "duration": 142,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/2/2/0/f227bbc89a3bd30915e0454805e12eb1.mp3?hdnea=exp=1777454459~acl=/api/1/1/f/2/2/0/f227bbc89a3bd30915e0454805e12eb1.mp3*~data=user_id=0,application_id=42~hmac=d459df603b2b765e58959a437bac8563cf2f084ecb9e64c8b3597abc899e251c",
+              "image": "https://cdn-images.dzcdn.net/images/cover/3263d0ad26c565d7e1de4e85fd9bd7da/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 75104,
+                "name": "Wes Montgomery"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 2402,
+        "name": "Enigma",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 14520414,
+            "title": "The Story Of 'The Fall Of A Rebel Angel'",
+            "release_date": "2016-11-11",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 135870440,
+              "title": "The Story Of 'Circle Eight'",
+              "track_number": 1,
+              "duration": 60,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/a/d/0/1ada662bbbd8ab0dafddabeb08e951b5.mp3?hdnea=exp=1777454461~acl=/api/1/1/1/a/d/0/1ada662bbbd8ab0dafddabeb08e951b5.mp3*~data=user_id=0,application_id=42~hmac=343f7b1dac506498aaffb85a75c6f2a0b231f8f0ed42a1add46665c424d12ba0",
+              "image": "https://cdn-images.dzcdn.net/images/cover/5e58393fea6b47cfc2c50b83bae7d1a3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 2402,
+                "name": "Enigma"
+              }
+            },
+            {
+              "id": 135870442,
+              "title": "The Story Of 'The Omega Point'",
+              "track_number": 2,
+              "duration": 109,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/7/c/0/17cd97865c5b52027a7d87f6a2d55350.mp3?hdnea=exp=1777454461~acl=/api/1/1/1/7/c/0/17cd97865c5b52027a7d87f6a2d55350.mp3*~data=user_id=0,application_id=42~hmac=51000ab962c55c10582b2689f367e855ca5fbf49183d97eae94a7d85adde2f8c",
+              "image": "https://cdn-images.dzcdn.net/images/cover/5e58393fea6b47cfc2c50b83bae7d1a3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 2402,
+                "name": "Enigma"
+              }
+            },
+            {
+              "id": 135870444,
+              "title": "The Story Of 'Diving'",
+              "track_number": 3,
+              "duration": 86,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/7/d/0/07d8d355451d753237219429d65c7ecc.mp3?hdnea=exp=1777454461~acl=/api/1/1/0/7/d/0/07d8d355451d753237219429d65c7ecc.mp3*~data=user_id=0,application_id=42~hmac=cd3ab3d8034f06515f5740bbe0d15e30821c97aea34c7ac03a18d3fd70a57ee1",
+              "image": "https://cdn-images.dzcdn.net/images/cover/5e58393fea6b47cfc2c50b83bae7d1a3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 2402,
+                "name": "Enigma"
+              }
+            },
+            {
+              "id": 135870446,
+              "title": "The Story Of 'The Die Is Cast'",
+              "track_number": 4,
+              "duration": 119,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/4/a/0/84a8f9d07a9fe5b5982c807c56898f35.mp3?hdnea=exp=1777454461~acl=/api/1/1/8/4/a/0/84a8f9d07a9fe5b5982c807c56898f35.mp3*~data=user_id=0,application_id=42~hmac=5d2919a15a4c3ad40696c6ceab8de05a04a310603358278801776c5928f90b8c",
+              "image": "https://cdn-images.dzcdn.net/images/cover/5e58393fea6b47cfc2c50b83bae7d1a3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 2402,
+                "name": "Enigma"
+              }
+            },
+            {
+              "id": 135870448,
+              "title": "The Story Of 'Mother'",
+              "track_number": 5,
+              "duration": 123,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/f/8/0/4f8b4a3bf8d039adae0612c977b09ee8.mp3?hdnea=exp=1777454461~acl=/api/1/1/4/f/8/0/4f8b4a3bf8d039adae0612c977b09ee8.mp3*~data=user_id=0,application_id=42~hmac=c2551ceee40a09abc2267cee1c6ed4aed09f767e9a144b5f0c7f40339909de0a",
+              "image": "https://cdn-images.dzcdn.net/images/cover/5e58393fea6b47cfc2c50b83bae7d1a3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 2402,
+                "name": "Enigma"
+              }
+            },
+            {
+              "id": 135870450,
+              "title": "The Story Of 'Agnus Dei'",
+              "track_number": 6,
+              "duration": 169,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/5/c/0/75c8ea6f3e347a9c21e8c612005afc80.mp3?hdnea=exp=1777454461~acl=/api/1/1/7/5/c/0/75c8ea6f3e347a9c21e8c612005afc80.mp3*~data=user_id=0,application_id=42~hmac=cddf3e8f43bef3a062e10a6631cd35d83abf56f00d38d1fcbd5596e98f919d39",
+              "image": "https://cdn-images.dzcdn.net/images/cover/5e58393fea6b47cfc2c50b83bae7d1a3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 2402,
+                "name": "Enigma"
+              }
+            },
+            {
+              "id": 135870452,
+              "title": "The Story Of 'Sadeness (Part II)'",
+              "track_number": 7,
+              "duration": 157,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/c/2/0/cc2da63ba5e6016c95a6aa7ad3571032.mp3?hdnea=exp=1777454461~acl=/api/1/1/c/c/2/0/cc2da63ba5e6016c95a6aa7ad3571032.mp3*~data=user_id=0,application_id=42~hmac=6a795904615e561ff1831330fc0f1ad3ebb5fae2e55ca1ca0e4330967d351986",
+              "image": "https://cdn-images.dzcdn.net/images/cover/5e58393fea6b47cfc2c50b83bae7d1a3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 2402,
+                "name": "Enigma"
+              }
+            },
+            {
+              "id": 135870454,
+              "title": "The Story Of 'Lost In Nothingness'",
+              "track_number": 8,
+              "duration": 106,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/4/1/0/4414f1d4dab4cceff98ecc9a743228f2.mp3?hdnea=exp=1777454461~acl=/api/1/1/4/4/1/0/4414f1d4dab4cceff98ecc9a743228f2.mp3*~data=user_id=0,application_id=42~hmac=5888bf737a16c669d8733bb5cd90f0797da774a424ac140960e34026477a3e7c",
+              "image": "https://cdn-images.dzcdn.net/images/cover/5e58393fea6b47cfc2c50b83bae7d1a3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 2402,
+                "name": "Enigma"
+              }
+            },
+            {
+              "id": 135870456,
+              "title": "The Story Of 'Oxygen Red'",
+              "track_number": 9,
+              "duration": 116,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/0/2/0/002fae03a6f540be14f9b26b1b00f93a.mp3?hdnea=exp=1777454461~acl=/api/1/1/0/0/2/0/002fae03a6f540be14f9b26b1b00f93a.mp3*~data=user_id=0,application_id=42~hmac=408684a1ac67bb3027af3c957f815da9585472783126dc46da10b383afe5845d",
+              "image": "https://cdn-images.dzcdn.net/images/cover/5e58393fea6b47cfc2c50b83bae7d1a3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 2402,
+                "name": "Enigma"
+              }
+            },
+            {
+              "id": 135870458,
+              "title": "The Story Of 'Confession Of The Mind'",
+              "track_number": 10,
+              "duration": 163,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/1/3/0/113bbf73ad2884f9f0e5c848673c0635.mp3?hdnea=exp=1777454461~acl=/api/1/1/1/1/3/0/113bbf73ad2884f9f0e5c848673c0635.mp3*~data=user_id=0,application_id=42~hmac=f6d017c3bfcf8dd708958df46da7c76b9fcf2231b283aac80ed3f47877fa69cb",
+              "image": "https://cdn-images.dzcdn.net/images/cover/5e58393fea6b47cfc2c50b83bae7d1a3/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 2402,
+                "name": "Enigma"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 12024136,
+        "name": "Phung Khanh Linh",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 834354252,
+            "title": "GIỮA MỘT VẠN NGƯỜI",
+            "release_date": "2025-10-18",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 3591969212,
+              "title": "GRIEF IS THE PRICE YOU PAY FOR LOVE",
+              "track_number": 1,
+              "duration": 162,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/9/1/0/99122e71dbbd3c904e45a653c35ebb28.mp3?hdnea=exp=1777454463~acl=/api/1/1/9/9/1/0/99122e71dbbd3c904e45a653c35ebb28.mp3*~data=user_id=0,application_id=42~hmac=f580cc8ca5e131b433032967477fbac93ca88582b16e9873891be3bf3ad0df3b",
+              "image": "https://cdn-images.dzcdn.net/images/cover/9f96ce900a185808e56f60396ffe84ed/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12024136,
+                "name": "Phung Khanh Linh"
+              }
+            },
+            {
+              "id": 3591969222,
+              "title": "HIỆN THỰC PHŨ PHÀNG",
+              "track_number": 2,
+              "duration": 203,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/3/b/0/e3b9b00009db09a5f02890cbd63175be.mp3?hdnea=exp=1777454463~acl=/api/1/1/e/3/b/0/e3b9b00009db09a5f02890cbd63175be.mp3*~data=user_id=0,application_id=42~hmac=53c7e7b81709c0db2102635950b6fb6855868a81cdc4727fd2e70f78bae7a64c",
+              "image": "https://cdn-images.dzcdn.net/images/cover/9f96ce900a185808e56f60396ffe84ed/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12024136,
+                "name": "Phung Khanh Linh"
+              }
+            },
+            {
+              "id": 3591969232,
+              "title": "CỜ NGƯỜI",
+              "track_number": 3,
+              "duration": 226,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/9/0/0/d9039bc6dead01559353fe0fe5524e18.mp3?hdnea=exp=1777454463~acl=/api/1/1/d/9/0/0/d9039bc6dead01559353fe0fe5524e18.mp3*~data=user_id=0,application_id=42~hmac=844e42c18cdf498d82af7a6fd6807888de0ecf3195c4f639ff309e6ef34ddf20",
+              "image": "https://cdn-images.dzcdn.net/images/cover/9f96ce900a185808e56f60396ffe84ed/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12024136,
+                "name": "Phung Khanh Linh"
+              }
+            },
+            {
+              "id": 3591969242,
+              "title": "ANH LÀ THẰNG TỒI",
+              "track_number": 4,
+              "duration": 200,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/4/5/0/145f9cd7400d6e922f4f974e211a62ac.mp3?hdnea=exp=1777454463~acl=/api/1/1/1/4/5/0/145f9cd7400d6e922f4f974e211a62ac.mp3*~data=user_id=0,application_id=42~hmac=7c2b07401ec2c1c5debe6442a2dcc0dc995e4fc5302916a8a2e2265b6d8751ca",
+              "image": "https://cdn-images.dzcdn.net/images/cover/9f96ce900a185808e56f60396ffe84ed/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12024136,
+                "name": "Phung Khanh Linh"
+              }
+            },
+            {
+              "id": 3591969252,
+              "title": "LINH CẢM",
+              "track_number": 5,
+              "duration": 249,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/d/f/0/adffa6dedc3b75ff2d1882d910367c02.mp3?hdnea=exp=1777454463~acl=/api/1/1/a/d/f/0/adffa6dedc3b75ff2d1882d910367c02.mp3*~data=user_id=0,application_id=42~hmac=26cb1ebf21f6ce4e3fc52fb188f385dd42f558e639a62bfede008395e9aeaa60",
+              "image": "https://cdn-images.dzcdn.net/images/cover/9f96ce900a185808e56f60396ffe84ed/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12024136,
+                "name": "Phung Khanh Linh"
+              }
+            },
+            {
+              "id": 3591969262,
+              "title": "ÁM ẢNH VỀ ANH",
+              "track_number": 6,
+              "duration": 181,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/0/3/0/403b6d6344f23cbb254e21439e01a721.mp3?hdnea=exp=1777454463~acl=/api/1/1/4/0/3/0/403b6d6344f23cbb254e21439e01a721.mp3*~data=user_id=0,application_id=42~hmac=866bd9c1aa1a18484075e3de7b84d4d4da9ee7f22e00c62627df3920a342da60",
+              "image": "https://cdn-images.dzcdn.net/images/cover/9f96ce900a185808e56f60396ffe84ed/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12024136,
+                "name": "Phung Khanh Linh"
+              }
+            },
+            {
+              "id": 3591969272,
+              "title": "ƯỚC ANH TAN NÁT CON TIM",
+              "track_number": 7,
+              "duration": 230,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/2/9/0/7297aa3e3eafc539417377c5bbe65936.mp3?hdnea=exp=1777454463~acl=/api/1/1/7/2/9/0/7297aa3e3eafc539417377c5bbe65936.mp3*~data=user_id=0,application_id=42~hmac=e9e8d209a92a345c5930a82d6f495af62a4a2b947b78a8f9f755d01241ea1eb9",
+              "image": "https://cdn-images.dzcdn.net/images/cover/9f96ce900a185808e56f60396ffe84ed/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12024136,
+                "name": "Phung Khanh Linh"
+              }
+            },
+            {
+              "id": 3591969282,
+              "title": "ĐIỀU EM KHÔNG MUỐN",
+              "track_number": 8,
+              "duration": 225,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/f/0/0cf159f2dcc845a7a5c87557a7a237b1.mp3?hdnea=exp=1777454463~acl=/api/1/1/0/c/f/0/0cf159f2dcc845a7a5c87557a7a237b1.mp3*~data=user_id=0,application_id=42~hmac=31a6e6cfa1bbecca337481e76f47a69589d735b5c8d106be0239098cb7f274aa",
+              "image": "https://cdn-images.dzcdn.net/images/cover/9f96ce900a185808e56f60396ffe84ed/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12024136,
+                "name": "Phung Khanh Linh"
+              }
+            },
+            {
+              "id": 3591969292,
+              "title": "HÃY NÓI ANH SAI RỒI",
+              "track_number": 9,
+              "duration": 187,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/7/f/0/67fc26427ec7e70c5bca58d2e00ae12f.mp3?hdnea=exp=1777454463~acl=/api/1/1/6/7/f/0/67fc26427ec7e70c5bca58d2e00ae12f.mp3*~data=user_id=0,application_id=42~hmac=b8840c5ef1867823cef9dbdb983e6dedcee7f84f8021a18aa614db8007067bac",
+              "image": "https://cdn-images.dzcdn.net/images/cover/9f96ce900a185808e56f60396ffe84ed/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12024136,
+                "name": "Phung Khanh Linh"
+              }
+            },
+            {
+              "id": 3591969302,
+              "title": "KHÓC BLÓCK",
+              "track_number": 10,
+              "duration": 177,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/d/1/0/0d176116d59c961c0d3d5361f1b56c7d.mp3?hdnea=exp=1777454463~acl=/api/1/1/0/d/1/0/0d176116d59c961c0d3d5361f1b56c7d.mp3*~data=user_id=0,application_id=42~hmac=76bb26ad900bdc9b9ab805ae51926b8c3315306a3657dd7225c4bc021744a9ff",
+              "image": "https://cdn-images.dzcdn.net/images/cover/9f96ce900a185808e56f60396ffe84ed/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 12024136,
+                "name": "Phung Khanh Linh"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 248913582,
+        "name": "Zhu",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 897677332,
+            "title": "BLACK MIDAS",
+            "release_date": "2026-04-24",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 3774832812,
+              "title": "MIDAS INTRO",
+              "track_number": 1,
+              "duration": 54,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/8/8/0/b888a51f0c0e0ae35c14662ae7800aae.mp3?hdnea=exp=1777454465~acl=/api/1/1/b/8/8/0/b888a51f0c0e0ae35c14662ae7800aae.mp3*~data=user_id=0,application_id=42~hmac=ccb3509088bbb6cf5de9193495416e8ba06dc626ab73498ea67a570633e19e67",
+              "image": "https://cdn-images.dzcdn.net/images/cover/63c3a9e353caf35642c4085b382a9754/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 248913582,
+                "name": "Zhu"
+              }
+            },
+            {
+              "id": 3774832822,
+              "title": "BLACK MIDAS",
+              "track_number": 2,
+              "duration": 245,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/5/7/0/c57cbf68cc86b519e1306e792e032d0c.mp3?hdnea=exp=1777454465~acl=/api/1/1/c/5/7/0/c57cbf68cc86b519e1306e792e032d0c.mp3*~data=user_id=0,application_id=42~hmac=4c48dec799545883f25da65573093f32a62364a654af46d40c97b8e805e695af",
+              "image": "https://cdn-images.dzcdn.net/images/cover/63c3a9e353caf35642c4085b382a9754/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 248913582,
+                "name": "Zhu"
+              }
+            },
+            {
+              "id": 3774832832,
+              "title": "IN THE WILD",
+              "track_number": 3,
+              "duration": 206,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/1/c/0/e1cf166eaee4d3315f1691536e1b140d.mp3?hdnea=exp=1777454465~acl=/api/1/1/e/1/c/0/e1cf166eaee4d3315f1691536e1b140d.mp3*~data=user_id=0,application_id=42~hmac=5f2a3edded5891ce7001f9c1348892b1773dca2778c9ad402523fae290020fb8",
+              "image": "https://cdn-images.dzcdn.net/images/cover/63c3a9e353caf35642c4085b382a9754/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 248913582,
+                "name": "Zhu"
+              }
+            },
+            {
+              "id": 3774832842,
+              "title": "LEVELZZZ",
+              "track_number": 4,
+              "duration": 235,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/f/0/d4fd9f80051e0c5f5b08ea10d9c62478.mp3?hdnea=exp=1777454465~acl=/api/1/1/d/4/f/0/d4fd9f80051e0c5f5b08ea10d9c62478.mp3*~data=user_id=0,application_id=42~hmac=e3aa4bccca95420c9fbb8f61c7950824c37ab262ab44a74fe257b2be67bccaa2",
+              "image": "https://cdn-images.dzcdn.net/images/cover/63c3a9e353caf35642c4085b382a9754/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 248913582,
+                "name": "Zhu"
+              }
+            },
+            {
+              "id": 3774832852,
+              "title": "5STARRR",
+              "track_number": 5,
+              "duration": 226,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/c/f/0/7cfc9a7d152ec5e8a8cfefe8b45652e7.mp3?hdnea=exp=1777454465~acl=/api/1/1/7/c/f/0/7cfc9a7d152ec5e8a8cfefe8b45652e7.mp3*~data=user_id=0,application_id=42~hmac=faef55ffcc5b01cc6c8ed1ae37c81a1c3e7bf1e0df88b46a69ff879f7f6196be",
+              "image": "https://cdn-images.dzcdn.net/images/cover/63c3a9e353caf35642c4085b382a9754/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 248913582,
+                "name": "Zhu"
+              }
+            },
+            {
+              "id": 3774832862,
+              "title": "BURN",
+              "track_number": 6,
+              "duration": 253,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/0/d/0/90de24b49c3a4dc00932a67a4541c489.mp3?hdnea=exp=1777454465~acl=/api/1/1/9/0/d/0/90de24b49c3a4dc00932a67a4541c489.mp3*~data=user_id=0,application_id=42~hmac=c01a04e2b6f80145f6ef2edd11df16ad6388a3b4080f6bd4e9a66f359c550cd9",
+              "image": "https://cdn-images.dzcdn.net/images/cover/63c3a9e353caf35642c4085b382a9754/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 248913582,
+                "name": "Zhu"
+              }
+            },
+            {
+              "id": 3774832872,
+              "title": "ONE DESIRE",
+              "track_number": 7,
+              "duration": 176,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/4/0/fe4619465e481fa0f85408353fec02dd.mp3?hdnea=exp=1777454465~acl=/api/1/1/f/e/4/0/fe4619465e481fa0f85408353fec02dd.mp3*~data=user_id=0,application_id=42~hmac=a5204c493131eb4cd49caf250c1c23504c94c1ef6c80186d4c1379e81af92b3b",
+              "image": "https://cdn-images.dzcdn.net/images/cover/63c3a9e353caf35642c4085b382a9754/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 248913582,
+                "name": "Zhu"
+              }
+            },
+            {
+              "id": 3774832882,
+              "title": "HURTS4ME",
+              "track_number": 8,
+              "duration": 230,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/9/e/0/d9e39b6d04db7036a4433a196b0c6eca.mp3?hdnea=exp=1777454465~acl=/api/1/1/d/9/e/0/d9e39b6d04db7036a4433a196b0c6eca.mp3*~data=user_id=0,application_id=42~hmac=614fb8e9397cdce690b1e4c565434f9e6ac2b2ff70b780288af6b686181afc47",
+              "image": "https://cdn-images.dzcdn.net/images/cover/63c3a9e353caf35642c4085b382a9754/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 248913582,
+                "name": "Zhu"
+              }
+            },
+            {
+              "id": 3774832892,
+              "title": "WHAT I NEED",
+              "track_number": 9,
+              "duration": 159,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/c/9/0/8c9f26bda0ba75e6ca2b61926f31b911.mp3?hdnea=exp=1777454465~acl=/api/1/1/8/c/9/0/8c9f26bda0ba75e6ca2b61926f31b911.mp3*~data=user_id=0,application_id=42~hmac=d58d46d51d1a51f1cae477067880227f674fde5266c4a6d01c29bd3516e290b5",
+              "image": "https://cdn-images.dzcdn.net/images/cover/63c3a9e353caf35642c4085b382a9754/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 248913582,
+                "name": "Zhu"
+              }
+            },
+            {
+              "id": 3774832902,
+              "title": "KEEP IT MOVING",
+              "track_number": 10,
+              "duration": 293,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/b/7/0/6b7b153468c2fa4503413055131a3683.mp3?hdnea=exp=1777454465~acl=/api/1/1/6/b/7/0/6b7b153468c2fa4503413055131a3683.mp3*~data=user_id=0,application_id=42~hmac=fd537875f10e51651409f8280adf419123bc4636f9fb0891ce70726e4049f60b",
+              "image": "https://cdn-images.dzcdn.net/images/cover/63c3a9e353caf35642c4085b382a9754/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 248913582,
+                "name": "Zhu"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 134790,
+        "name": "Tame Impala",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 837961612,
+            "title": "Deadbeat",
+            "release_date": "2025-10-17",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 3602329302,
+              "title": "My Old Ways",
+              "track_number": 1,
+              "duration": 298,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/6/d/0/36d0368e80eb7958158899338295aced.mp3?hdnea=exp=1777454467~acl=/api/1/1/3/6/d/0/36d0368e80eb7958158899338295aced.mp3*~data=user_id=0,application_id=42~hmac=a74aa52a5eaf3ca6a460758b3e992e247056e9876e523ba8bbca1c09ad8defb2",
+              "image": "https://cdn-images.dzcdn.net/images/cover/23b006b2e956536d97612847bbd7a3b7/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 134790,
+                "name": "Tame Impala"
+              }
+            },
+            {
+              "id": 3602329312,
+              "title": "No Reply",
+              "track_number": 2,
+              "duration": 215,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/9/8/0/b98e939c97f845d522ac1f0cff8c49b8.mp3?hdnea=exp=1777454467~acl=/api/1/1/b/9/8/0/b98e939c97f845d522ac1f0cff8c49b8.mp3*~data=user_id=0,application_id=42~hmac=a1f029787cbc8dae5d8a0da847eb11dc6db976795dd8dc02c5bb47f5af08f950",
+              "image": "https://cdn-images.dzcdn.net/images/cover/23b006b2e956536d97612847bbd7a3b7/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 134790,
+                "name": "Tame Impala"
+              }
+            },
+            {
+              "id": 3602329322,
+              "title": "Dracula",
+              "track_number": 3,
+              "duration": 205,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/2/d/0/72d9c71556ab7b935a6914bda5029ed2.mp3?hdnea=exp=1777454467~acl=/api/1/1/7/2/d/0/72d9c71556ab7b935a6914bda5029ed2.mp3*~data=user_id=0,application_id=42~hmac=c1ed66c19d2f0adb5d5a6936f754636a29301944d422d46e974abbc0dd91cad9",
+              "image": "https://cdn-images.dzcdn.net/images/cover/23b006b2e956536d97612847bbd7a3b7/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 134790,
+                "name": "Tame Impala"
+              }
+            },
+            {
+              "id": 3602329332,
+              "title": "Loser",
+              "track_number": 4,
+              "duration": 223,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/e/c/0/7ec2a1ee5ba7ced2d0eeffd12afbc4f3.mp3?hdnea=exp=1777454467~acl=/api/1/1/7/e/c/0/7ec2a1ee5ba7ced2d0eeffd12afbc4f3.mp3*~data=user_id=0,application_id=42~hmac=d505d22a3aea30d6d6aaf6f1439ad84aca8cb321c953b8bc62e1bc9353ef9dfa",
+              "image": "https://cdn-images.dzcdn.net/images/cover/23b006b2e956536d97612847bbd7a3b7/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 134790,
+                "name": "Tame Impala"
+              }
+            },
+            {
+              "id": 3602329342,
+              "title": "Oblivion",
+              "track_number": 5,
+              "duration": 268,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/b/3/0/1b357c3489ccf168cff6fd8d61bcbb56.mp3?hdnea=exp=1777454467~acl=/api/1/1/1/b/3/0/1b357c3489ccf168cff6fd8d61bcbb56.mp3*~data=user_id=0,application_id=42~hmac=45401ab42ae89571f5d83028f4ef42b73a047b0a25ece73b23bd4b3e5fac55d2",
+              "image": "https://cdn-images.dzcdn.net/images/cover/23b006b2e956536d97612847bbd7a3b7/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 134790,
+                "name": "Tame Impala"
+              }
+            },
+            {
+              "id": 3602329352,
+              "title": "Not My World",
+              "track_number": 6,
+              "duration": 254,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/2/9/0/52913dc452f8ec9bd0230a38421b7d0a.mp3?hdnea=exp=1777454467~acl=/api/1/1/5/2/9/0/52913dc452f8ec9bd0230a38421b7d0a.mp3*~data=user_id=0,application_id=42~hmac=36d0d4e241b78e22977c596e2e53e276104c2b4180b3f0cc06c4ca2c1fce5186",
+              "image": "https://cdn-images.dzcdn.net/images/cover/23b006b2e956536d97612847bbd7a3b7/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 134790,
+                "name": "Tame Impala"
+              }
+            },
+            {
+              "id": 3602329362,
+              "title": "Piece Of Heaven",
+              "track_number": 7,
+              "duration": 284,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/f/0/f1fbf2f66d4716162a6502b74d858f2a.mp3?hdnea=exp=1777454467~acl=/api/1/1/f/1/f/0/f1fbf2f66d4716162a6502b74d858f2a.mp3*~data=user_id=0,application_id=42~hmac=6f0acf34b57f886da86ce8e336544ca24fefcb3193c649bf765c39081106b71d",
+              "image": "https://cdn-images.dzcdn.net/images/cover/23b006b2e956536d97612847bbd7a3b7/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 134790,
+                "name": "Tame Impala"
+              }
+            },
+            {
+              "id": 3602329372,
+              "title": "Obsolete",
+              "track_number": 8,
+              "duration": 263,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/6/a/0/66a4c9277fe0afe1f8ccdaa843944c3d.mp3?hdnea=exp=1777454467~acl=/api/1/1/6/6/a/0/66a4c9277fe0afe1f8ccdaa843944c3d.mp3*~data=user_id=0,application_id=42~hmac=fba0034f4bf9f16cf5b90b0c94c364747afe8f859b8f2c666a5f69355ddc3780",
+              "image": "https://cdn-images.dzcdn.net/images/cover/23b006b2e956536d97612847bbd7a3b7/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 134790,
+                "name": "Tame Impala"
+              }
+            },
+            {
+              "id": 3602329382,
+              "title": "Ethereal Connection",
+              "track_number": 9,
+              "duration": 462,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/a/6/0/2a673f31fcc4f2436d81bd83b26b58b2.mp3?hdnea=exp=1777454467~acl=/api/1/1/2/a/6/0/2a673f31fcc4f2436d81bd83b26b58b2.mp3*~data=user_id=0,application_id=42~hmac=4c55524f433a79af6b8e36bde264ba56177681ca8fdd65298f5cf67852523116",
+              "image": "https://cdn-images.dzcdn.net/images/cover/23b006b2e956536d97612847bbd7a3b7/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 134790,
+                "name": "Tame Impala"
+              }
+            },
+            {
+              "id": 3602329392,
+              "title": "See You On Monday (You're Lost)",
+              "track_number": 10,
+              "duration": 214,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/b/7/0/3b7cf362731b5639c6c62d2d3469d478.mp3?hdnea=exp=1777454467~acl=/api/1/1/3/b/7/0/3b7cf362731b5639c6c62d2d3469d478.mp3*~data=user_id=0,application_id=42~hmac=bc03641059c9f1b1aa8aefe55c96c0a1a9aeb2bc856a2be66d5bf045966e6cea",
+              "image": "https://cdn-images.dzcdn.net/images/cover/23b006b2e956536d97612847bbd7a3b7/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 134790,
+                "name": "Tame Impala"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 1412564,
+        "name": "Nekfeu",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 100821322,
+            "title": "Les étoiles vagabondes : expansion",
+            "release_date": "2019-06-21",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 698747182,
+              "title": "Les étoiles vagabondes",
+              "track_number": 1,
+              "duration": 233,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/2/0/ac2bee682578f37c268019b5defe44fa.mp3?hdnea=exp=1777454468~acl=/api/1/1/a/c/2/0/ac2bee682578f37c268019b5defe44fa.mp3*~data=user_id=0,application_id=42~hmac=5069a1dc23b33f08b0847d2f61704cc074378fc27cd61c8b889b7c8f79c7f4b6",
+              "image": "https://cdn-images.dzcdn.net/images/cover/853d2682fcb082898db6e114baea0309/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1412564,
+                "name": "Nekfeu"
+              }
+            },
+            {
+              "id": 698747192,
+              "title": "Alunissons",
+              "track_number": 2,
+              "duration": 278,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/0/7/0/c0719bcecd19dcd49b58b22e310aa016.mp3?hdnea=exp=1777454468~acl=/api/1/1/c/0/7/0/c0719bcecd19dcd49b58b22e310aa016.mp3*~data=user_id=0,application_id=42~hmac=cfc2ad02e809794bff4b7d7b9dc082e10fc8ed6ac7d114a35c5e5a5797575258",
+              "image": "https://cdn-images.dzcdn.net/images/cover/853d2682fcb082898db6e114baea0309/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1412564,
+                "name": "Nekfeu"
+              }
+            },
+            {
+              "id": 698747202,
+              "title": "Cheum",
+              "track_number": 3,
+              "duration": 196,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/9/d/0/09dd6288e6bd371db0b404d32e923e2d.mp3?hdnea=exp=1777454468~acl=/api/1/1/0/9/d/0/09dd6288e6bd371db0b404d32e923e2d.mp3*~data=user_id=0,application_id=42~hmac=69b6858238ca25f0689842c516af629c96ec7c9332a990ef91019769c0a76132",
+              "image": "https://cdn-images.dzcdn.net/images/cover/853d2682fcb082898db6e114baea0309/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1412564,
+                "name": "Nekfeu"
+              }
+            },
+            {
+              "id": 698747212,
+              "title": "Natsukashii",
+              "track_number": 4,
+              "duration": 190,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/2/f/0/c2ffba2a3b110337f5b214c31b53ef14.mp3?hdnea=exp=1777454468~acl=/api/1/1/c/2/f/0/c2ffba2a3b110337f5b214c31b53ef14.mp3*~data=user_id=0,application_id=42~hmac=22396d24339678ac518678e7010af9558440ec82e5dfa1f837dd5134bea863a8",
+              "image": "https://cdn-images.dzcdn.net/images/cover/853d2682fcb082898db6e114baea0309/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1412564,
+                "name": "Nekfeu"
+              }
+            },
+            {
+              "id": 698747222,
+              "title": "Takotsubo",
+              "track_number": 5,
+              "duration": 284,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/a/0/5cad8ef5333b4a1c30bfbc0c31812a0d.mp3?hdnea=exp=1777454468~acl=/api/1/1/5/c/a/0/5cad8ef5333b4a1c30bfbc0c31812a0d.mp3*~data=user_id=0,application_id=42~hmac=38d7b275da7ef1fe13883779a828d8f2cf3f983cbc6d7a207ea153902de78028",
+              "image": "https://cdn-images.dzcdn.net/images/cover/853d2682fcb082898db6e114baea0309/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1412564,
+                "name": "Nekfeu"
+              }
+            },
+            {
+              "id": 698747232,
+              "title": "Menteur menteur",
+              "track_number": 6,
+              "duration": 225,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/8/c/0/b8ccd481d1ffd7967aae4a6f8b3d6877.mp3?hdnea=exp=1777454468~acl=/api/1/1/b/8/c/0/b8ccd481d1ffd7967aae4a6f8b3d6877.mp3*~data=user_id=0,application_id=42~hmac=18260c81da89304d9cc44d6942e288d698f2d572a1303f704273493af1988681",
+              "image": "https://cdn-images.dzcdn.net/images/cover/853d2682fcb082898db6e114baea0309/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1412564,
+                "name": "Nekfeu"
+              }
+            },
+            {
+              "id": 698747242,
+              "title": "Ecrire",
+              "track_number": 7,
+              "duration": 221,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/e/1/0/9e13993dc25ccbafe7db3c3c5133d329.mp3?hdnea=exp=1777454468~acl=/api/1/1/9/e/1/0/9e13993dc25ccbafe7db3c3c5133d329.mp3*~data=user_id=0,application_id=42~hmac=0c90cef3f18c4a6cb0b624441cd1ea6a492a6b609877fb541f0c7a80902290ce",
+              "image": "https://cdn-images.dzcdn.net/images/cover/853d2682fcb082898db6e114baea0309/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1412564,
+                "name": "Nekfeu"
+              }
+            },
+            {
+              "id": 698747252,
+              "title": "Ciel noir",
+              "track_number": 8,
+              "duration": 253,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/2/9/0/82967e2b786582bae91d039ab092c4c3.mp3?hdnea=exp=1777454468~acl=/api/1/1/8/2/9/0/82967e2b786582bae91d039ab092c4c3.mp3*~data=user_id=0,application_id=42~hmac=50bc7d6546f682649dde40c51683833ab358e52f4d9740acc1899fc2800c23e0",
+              "image": "https://cdn-images.dzcdn.net/images/cover/853d2682fcb082898db6e114baea0309/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1412564,
+                "name": "Nekfeu"
+              }
+            },
+            {
+              "id": 698747262,
+              "title": "L'air du temps",
+              "track_number": 9,
+              "duration": 174,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/9/a/0/69ab3ee836bf6f702293bfd49323c599.mp3?hdnea=exp=1777454468~acl=/api/1/1/6/9/a/0/69ab3ee836bf6f702293bfd49323c599.mp3*~data=user_id=0,application_id=42~hmac=e1e021f16d4bf5e7ef85ab56bfb00a4842acb06324a0387b6894ac3205a6f7b4",
+              "image": "https://cdn-images.dzcdn.net/images/cover/853d2682fcb082898db6e114baea0309/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1412564,
+                "name": "Nekfeu"
+              }
+            },
+            {
+              "id": 698747272,
+              "title": "De mon mieux",
+              "track_number": 10,
+              "duration": 228,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/2/8/0/b28f738de8fd4d0ee6221e4137c493e9.mp3?hdnea=exp=1777454468~acl=/api/1/1/b/2/8/0/b28f738de8fd4d0ee6221e4137c493e9.mp3*~data=user_id=0,application_id=42~hmac=4d0417350bc5e80d9d005d81a16f501a6d23fbff3bd75298eff7a49755433848",
+              "image": "https://cdn-images.dzcdn.net/images/cover/853d2682fcb082898db6e114baea0309/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1412564,
+                "name": "Nekfeu"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 416239,
+        "name": "Imagine Dragons",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 712820501,
+            "title": "Reflections (From The Vault Of Smoke + Mirrors)",
+            "release_date": "2025-02-21",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 3233154241,
+              "title": "Woke (Demo)",
+              "track_number": 1,
+              "duration": 220,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/4/2/0/842e90056a70bef914162e84ebe663c6.mp3?hdnea=exp=1777454470~acl=/api/1/1/8/4/2/0/842e90056a70bef914162e84ebe663c6.mp3*~data=user_id=0,application_id=42~hmac=e8573aaac5b6e5b06d1dd4e30d6bdee9406c8709d586cadf6d184a836aeb7d72",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2db5a6a6762862a1846abc9b10e258ba/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 416239,
+                "name": "Imagine Dragons"
+              }
+            },
+            {
+              "id": 3233154251,
+              "title": "The Ghost Intervention (Demo)",
+              "track_number": 2,
+              "duration": 193,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/1/3/0/713624c1d898fd7f0a054e480a7e6f8f.mp3?hdnea=exp=1777454470~acl=/api/1/1/7/1/3/0/713624c1d898fd7f0a054e480a7e6f8f.mp3*~data=user_id=0,application_id=42~hmac=beed1aaeeb417c133c2be7681e824fe55ed8fe36cdf4423a03ab5fb94ab7b7a4",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2db5a6a6762862a1846abc9b10e258ba/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 416239,
+                "name": "Imagine Dragons"
+              }
+            },
+            {
+              "id": 3233154261,
+              "title": "Monica (Demo)",
+              "track_number": 3,
+              "duration": 198,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/a/c/0/1ac0962aa8856facd901674b1f043778.mp3?hdnea=exp=1777454470~acl=/api/1/1/1/a/c/0/1ac0962aa8856facd901674b1f043778.mp3*~data=user_id=0,application_id=42~hmac=c7defcbee8c651dc77656f6cef5fa7161728f4b1c92105eb35d92c8acf2796c2",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2db5a6a6762862a1846abc9b10e258ba/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 416239,
+                "name": "Imagine Dragons"
+              }
+            },
+            {
+              "id": 3233154271,
+              "title": "Black (Demo)",
+              "track_number": 4,
+              "duration": 203,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/9/d/0/79dfcc5180e2ed73d1d3f4fdf9fc465b.mp3?hdnea=exp=1777454470~acl=/api/1/1/7/9/d/0/79dfcc5180e2ed73d1d3f4fdf9fc465b.mp3*~data=user_id=0,application_id=42~hmac=93ffc3f1edfa526fc66ecc8d88e4d91fe188f122a0896913753c85feffade14d",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2db5a6a6762862a1846abc9b10e258ba/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 416239,
+                "name": "Imagine Dragons"
+              }
+            },
+            {
+              "id": 3233154281,
+              "title": "Strange Ways (Demo)",
+              "track_number": 5,
+              "duration": 151,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/e/8/0/ee8de89125a6e7c39ea50a6cade78625.mp3?hdnea=exp=1777454470~acl=/api/1/1/e/e/8/0/ee8de89125a6e7c39ea50a6cade78625.mp3*~data=user_id=0,application_id=42~hmac=be5ad0c0de987c646d4467ae5fc93e515f711b3c36a5080a1e195cb6a78b73ff",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2db5a6a6762862a1846abc9b10e258ba/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 416239,
+                "name": "Imagine Dragons"
+              }
+            },
+            {
+              "id": 3233154291,
+              "title": "I Get Carried Away (Demo)",
+              "track_number": 6,
+              "duration": 194,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/c/7/0/8c7412f16e7f7e9b195a011d32401eb8.mp3?hdnea=exp=1777454470~acl=/api/1/1/8/c/7/0/8c7412f16e7f7e9b195a011d32401eb8.mp3*~data=user_id=0,application_id=42~hmac=1b7d119954d31b3439b06a85cfa2ed39ff84ab92257b2ef71c753b9553ca6f40",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2db5a6a6762862a1846abc9b10e258ba/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 416239,
+                "name": "Imagine Dragons"
+              }
+            },
+            {
+              "id": 3233154301,
+              "title": "A-OK (Demo)",
+              "track_number": 7,
+              "duration": 142,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/1/7/0/c170bbac8bfb935a723c0494843ed5e3.mp3?hdnea=exp=1777454470~acl=/api/1/1/c/1/7/0/c170bbac8bfb935a723c0494843ed5e3.mp3*~data=user_id=0,application_id=42~hmac=815ecc2b95bbd6b4999da880714b449129994c4ad242fa5f4a0d83dbe31f07ed",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2db5a6a6762862a1846abc9b10e258ba/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 416239,
+                "name": "Imagine Dragons"
+              }
+            },
+            {
+              "id": 3233154311,
+              "title": "Destroyed (Demo)",
+              "track_number": 8,
+              "duration": 209,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/d/c/0/edc3a84edc0fab79793c059311abc0eb.mp3?hdnea=exp=1777454470~acl=/api/1/1/e/d/c/0/edc3a84edc0fab79793c059311abc0eb.mp3*~data=user_id=0,application_id=42~hmac=7a1513976faf2b4644867a2136b3d947143e943eb2197b9c404d7029b2006c62",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2db5a6a6762862a1846abc9b10e258ba/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 416239,
+                "name": "Imagine Dragons"
+              }
+            },
+            {
+              "id": 3233154321,
+              "title": "Playin' Me (Demo)",
+              "track_number": 9,
+              "duration": 162,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/0/0/b40af6875c6953b42cf98d456cb2690b.mp3?hdnea=exp=1777454470~acl=/api/1/1/b/4/0/0/b40af6875c6953b42cf98d456cb2690b.mp3*~data=user_id=0,application_id=42~hmac=e0ac824eba3c3811cce75248ef1f467a1913f88140bc79e1311450abd3033335",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2db5a6a6762862a1846abc9b10e258ba/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 416239,
+                "name": "Imagine Dragons"
+              }
+            },
+            {
+              "id": 3233154331,
+              "title": "My Car (Demo)",
+              "track_number": 10,
+              "duration": 151,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/a/6/0/6a6715990708de3340df63d1f6d76f77.mp3?hdnea=exp=1777454470~acl=/api/1/1/6/a/6/0/6a6715990708de3340df63d1f6d76f77.mp3*~data=user_id=0,application_id=42~hmac=66a7c3bbfa2e6ec153a9e73f6899aee6a412b4e470b4f4d9a68f6e65323b2026",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2db5a6a6762862a1846abc9b10e258ba/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 416239,
+                "name": "Imagine Dragons"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 1154,
+        "name": "Marvin Gaye",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 345766087,
+            "title": "I Want You: The John Morales M+M Mixes",
+            "release_date": "2022-08-19",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 1863902377,
+              "title": "I Want You (John Morales M+M Main Mix)",
+              "track_number": 1,
+              "duration": 578,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/6/4/0/a6424c81e24d025b437bd19d700d2c35.mp3?hdnea=exp=1777454472~acl=/api/1/1/a/6/4/0/a6424c81e24d025b437bd19d700d2c35.mp3*~data=user_id=0,application_id=42~hmac=a96abb747c9745f96dc4aab98982d6ad3c7a26da160ddeb24abe9b399a3c02ee",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e80bf0895b8dc6bf2f49c629603da3e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1154,
+                "name": "Marvin Gaye"
+              }
+            },
+            {
+              "id": 1863902387,
+              "title": "I Want You (John Morales M+M Instrumental Mix)",
+              "track_number": 2,
+              "duration": 461,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/7/5/0/7751e76ed1e88ea431bad2ea40f078ce.mp3?hdnea=exp=1777454472~acl=/api/1/1/7/7/5/0/7751e76ed1e88ea431bad2ea40f078ce.mp3*~data=user_id=0,application_id=42~hmac=a1f4b480d22f9b1e3a086a11de64f8d72198819c05be6aa2c7b746702afbefc7",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e80bf0895b8dc6bf2f49c629603da3e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1154,
+                "name": "Marvin Gaye"
+              }
+            },
+            {
+              "id": 1863902397,
+              "title": "I Want You (John Morales M+M Breakdown Mix)",
+              "track_number": 3,
+              "duration": 506,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/4/f/0/84f19f04960b0947dfdb8e7dfb2b5d11.mp3?hdnea=exp=1777454472~acl=/api/1/1/8/4/f/0/84f19f04960b0947dfdb8e7dfb2b5d11.mp3*~data=user_id=0,application_id=42~hmac=740918da17d4d51ff366c13f9702d2a7bd768e9175f3a67cc62f02f111b1c573",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e80bf0895b8dc6bf2f49c629603da3e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1154,
+                "name": "Marvin Gaye"
+              }
+            },
+            {
+              "id": 1863902407,
+              "title": "I Want You (John Morales M+M Pianopella Mix)",
+              "track_number": 4,
+              "duration": 502,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/d/c/0/4dc60c499229d97d39b818d3a28ec141.mp3?hdnea=exp=1777454472~acl=/api/1/1/4/d/c/0/4dc60c499229d97d39b818d3a28ec141.mp3*~data=user_id=0,application_id=42~hmac=31e671719cc2e5d0562f7df27f1a2863bf7ff50223e6b969d62ea2b6147d9d3b",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e80bf0895b8dc6bf2f49c629603da3e/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1154,
+                "name": "Marvin Gaye"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 796051,
+        "name": "Gramatik",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 699497111,
+            "title": "Aequoreus",
+            "release_date": "2025-02-21",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 3191591721,
+              "title": "Raise The Sails",
+              "track_number": 1,
+              "duration": 296,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/3/0/b13e3546ce3d209d824fefb87299f658.mp3?hdnea=exp=1777454474~acl=/api/1/1/b/1/3/0/b13e3546ce3d209d824fefb87299f658.mp3*~data=user_id=0,application_id=42~hmac=b15119832954cbcef0733291ec75886fe4934537365de4eeb4727ac395b07cd2",
+              "image": "https://cdn-images.dzcdn.net/images/cover/32d41245cc4816aebe3d53d5a4d0af6a/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 796051,
+                "name": "Gramatik"
+              }
+            },
+            {
+              "id": 3191591731,
+              "title": "Tales From The Pirate Bay",
+              "track_number": 2,
+              "duration": 315,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/f/0/0/2f0f0655855c5c426228f6f02150b2fd.mp3?hdnea=exp=1777454474~acl=/api/1/1/2/f/0/0/2f0f0655855c5c426228f6f02150b2fd.mp3*~data=user_id=0,application_id=42~hmac=0684bdb7dc98b1f29eb2f6565b44d83ac60fd083e0de7b9a57a5da73640155a5",
+              "image": "https://cdn-images.dzcdn.net/images/cover/32d41245cc4816aebe3d53d5a4d0af6a/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 796051,
+                "name": "Gramatik"
+              }
+            },
+            {
+              "id": 3191591741,
+              "title": "I'm A Problem",
+              "track_number": 3,
+              "duration": 272,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/2/b/0/92b25ffb5bd3c3e78c4179d65c9234b9.mp3?hdnea=exp=1777454474~acl=/api/1/1/9/2/b/0/92b25ffb5bd3c3e78c4179d65c9234b9.mp3*~data=user_id=0,application_id=42~hmac=5803a5e8eeafa8c2dd9b3a0d1813127ea8b7bb6fd299b50c5ded3fe3c8735f46",
+              "image": "https://cdn-images.dzcdn.net/images/cover/32d41245cc4816aebe3d53d5a4d0af6a/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 796051,
+                "name": "Gramatik"
+              }
+            },
+            {
+              "id": 3191591751,
+              "title": "Replicore Memory",
+              "track_number": 4,
+              "duration": 327,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/4/0/0/0407c093e26ada854259bfa072bdc000.mp3?hdnea=exp=1777454474~acl=/api/1/1/0/4/0/0/0407c093e26ada854259bfa072bdc000.mp3*~data=user_id=0,application_id=42~hmac=9c4652a256d8d63ef40268ffe0c7268a3dcb42d8ecd351f1b578821482acddaf",
+              "image": "https://cdn-images.dzcdn.net/images/cover/32d41245cc4816aebe3d53d5a4d0af6a/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 796051,
+                "name": "Gramatik"
+              }
+            },
+            {
+              "id": 3191591761,
+              "title": "Bosphorus Flow",
+              "track_number": 5,
+              "duration": 283,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/a/5/0/aa5129bbe7cd792e794ce2be6a5d268a.mp3?hdnea=exp=1777454474~acl=/api/1/1/a/a/5/0/aa5129bbe7cd792e794ce2be6a5d268a.mp3*~data=user_id=0,application_id=42~hmac=36e46a7eda271fb8000f2f95cddea0c19e022d3c5f6f24c9fa49e261ed37afa9",
+              "image": "https://cdn-images.dzcdn.net/images/cover/32d41245cc4816aebe3d53d5a4d0af6a/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 796051,
+                "name": "Gramatik"
+              }
+            },
+            {
+              "id": 3191591771,
+              "title": "We Do It Together",
+              "track_number": 6,
+              "duration": 229,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/e/f/0/5ef747ddaa6f5f6a6bd195a8bf462fdc.mp3?hdnea=exp=1777454474~acl=/api/1/1/5/e/f/0/5ef747ddaa6f5f6a6bd195a8bf462fdc.mp3*~data=user_id=0,application_id=42~hmac=affa450749a029410607775ab281daf5ad401758e0a64161c0f6bc64e105abb8",
+              "image": "https://cdn-images.dzcdn.net/images/cover/32d41245cc4816aebe3d53d5a4d0af6a/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 796051,
+                "name": "Gramatik"
+              }
+            },
+            {
+              "id": 3191591781,
+              "title": "The Istrian Job",
+              "track_number": 7,
+              "duration": 180,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/3/6/0/2360a89e14456b1a5546b4808cc470eb.mp3?hdnea=exp=1777454474~acl=/api/1/1/2/3/6/0/2360a89e14456b1a5546b4808cc470eb.mp3*~data=user_id=0,application_id=42~hmac=f283426d3915e8ba7cd76ee5052ecd57e45f326b7b1b05bfc70ec163915d56e1",
+              "image": "https://cdn-images.dzcdn.net/images/cover/32d41245cc4816aebe3d53d5a4d0af6a/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 796051,
+                "name": "Gramatik"
+              }
+            },
+            {
+              "id": 3191591791,
+              "title": "Poseidon's Revenge",
+              "track_number": 8,
+              "duration": 324,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/3/0/0/7303a1ae6e627a0fdfc6698b89277439.mp3?hdnea=exp=1777454474~acl=/api/1/1/7/3/0/0/7303a1ae6e627a0fdfc6698b89277439.mp3*~data=user_id=0,application_id=42~hmac=4d81f2e0db6eec109d45cc452bb01ce714c89781a81ff7e43430ba861663480d",
+              "image": "https://cdn-images.dzcdn.net/images/cover/32d41245cc4816aebe3d53d5a4d0af6a/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 796051,
+                "name": "Gramatik"
+              }
+            },
+            {
+              "id": 3191591801,
+              "title": "Dolphin Shaped Town",
+              "track_number": 9,
+              "duration": 282,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/b/0/b6b1a5319c75b93bbb9c6f0df46236f7.mp3?hdnea=exp=1777454474~acl=/api/1/1/b/6/b/0/b6b1a5319c75b93bbb9c6f0df46236f7.mp3*~data=user_id=0,application_id=42~hmac=6d6c49f2188eef293a235a670997ca542f3c9374e069d74b3d0e262b4b7c823b",
+              "image": "https://cdn-images.dzcdn.net/images/cover/32d41245cc4816aebe3d53d5a4d0af6a/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 796051,
+                "name": "Gramatik"
+              }
+            },
+            {
+              "id": 3191591811,
+              "title": "Queen",
+              "track_number": 10,
+              "duration": 282,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/d/0/d4d103d3f9cf066c274ebf259064ca5b.mp3?hdnea=exp=1777454474~acl=/api/1/1/d/4/d/0/d4d103d3f9cf066c274ebf259064ca5b.mp3*~data=user_id=0,application_id=42~hmac=bc50e7f8cc4ff24f1761742ac29572685e781b4e1b10998ddc2b822411f39336",
+              "image": "https://cdn-images.dzcdn.net/images/cover/32d41245cc4816aebe3d53d5a4d0af6a/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 796051,
+                "name": "Gramatik"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 221,
+        "name": "Nat King Cole",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 542636192,
+            "title": "Live At The Blue Note Chicago",
+            "release_date": "2024-05-31",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 2645543072,
+              "title": "Frank Holzfeind Introduction (Live at the Blue Note Chicago)",
+              "track_number": 1,
+              "duration": 16,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/d/f/0/7df5a3af8af36554192b98c5b570b5e2.mp3?hdnea=exp=1777454476~acl=/api/1/1/7/d/f/0/7df5a3af8af36554192b98c5b570b5e2.mp3*~data=user_id=0,application_id=42~hmac=602bcc729084d75463d35f8d92ac80d3b5ff29fcf6b13d2d9098a90b3d8b065d",
+              "image": "https://cdn-images.dzcdn.net/images/cover/4c0634d4656b348d4bbf50bc571cf869/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 221,
+                "name": "Nat King Cole"
+              }
+            },
+            {
+              "id": 2645543082,
+              "title": "Little Girl (Live at the Blue Note Chicago)",
+              "track_number": 2,
+              "duration": 150,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/7/e/0/f7e5bc45d57efe6b39d82f64c73cef5c.mp3?hdnea=exp=1777454476~acl=/api/1/1/f/7/e/0/f7e5bc45d57efe6b39d82f64c73cef5c.mp3*~data=user_id=0,application_id=42~hmac=cccb07dbf19d3ef23857761f561f8738c8e7b8214bf68f7f9bff596c72c34e91",
+              "image": "https://cdn-images.dzcdn.net/images/cover/4c0634d4656b348d4bbf50bc571cf869/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 221,
+                "name": "Nat King Cole"
+              }
+            },
+            {
+              "id": 2645543092,
+              "title": "Unforgettable (Live at the Blue Note Chicago)",
+              "track_number": 3,
+              "duration": 224,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/c/0/8ec672077990045130bfccb9527060ff.mp3?hdnea=exp=1777454476~acl=/api/1/1/8/e/c/0/8ec672077990045130bfccb9527060ff.mp3*~data=user_id=0,application_id=42~hmac=7618b69516111d2719796f286d5f283b3b1edc784d1993eb9ce5d4ab6952d937",
+              "image": "https://cdn-images.dzcdn.net/images/cover/4c0634d4656b348d4bbf50bc571cf869/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 221,
+                "name": "Nat King Cole"
+              }
+            },
+            {
+              "id": 2645543102,
+              "title": "It's Only A Paper Moon (Live at the Blue Note Chicago)",
+              "track_number": 4,
+              "duration": 209,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/f/1/0/df1655e1b18498542c16444e3c3dcd31.mp3?hdnea=exp=1777454476~acl=/api/1/1/d/f/1/0/df1655e1b18498542c16444e3c3dcd31.mp3*~data=user_id=0,application_id=42~hmac=fc753dcda0ef00fb892167b427d0b5b9977748c9054d680995d4f87c4e2736d3",
+              "image": "https://cdn-images.dzcdn.net/images/cover/4c0634d4656b348d4bbf50bc571cf869/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 221,
+                "name": "Nat King Cole"
+              }
+            },
+            {
+              "id": 2645543112,
+              "title": "Love Is Here To Stay (Live at the Blue Note Chicago)",
+              "track_number": 5,
+              "duration": 224,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/7/1/0/171df9a81ce3b83708f9ad1b15ec9689.mp3?hdnea=exp=1777454476~acl=/api/1/1/1/7/1/0/171df9a81ce3b83708f9ad1b15ec9689.mp3*~data=user_id=0,application_id=42~hmac=b7b3f65e435866918a8bdd7bb3b25dfd7e2b8c435d4c2ad9ce22bf826ad7bd0b",
+              "image": "https://cdn-images.dzcdn.net/images/cover/4c0634d4656b348d4bbf50bc571cf869/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 221,
+                "name": "Nat King Cole"
+              }
+            },
+            {
+              "id": 2645543122,
+              "title": "Too Marvelous For Words (Live at the Blue Note Chicago)",
+              "track_number": 6,
+              "duration": 222,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/0/7/0/30748d29d4d3e773fd33dd670f75b8a4.mp3?hdnea=exp=1777454476~acl=/api/1/1/3/0/7/0/30748d29d4d3e773fd33dd670f75b8a4.mp3*~data=user_id=0,application_id=42~hmac=ffbc2550d38d10cdf368b166c319d2bfc1d1fd2773bcc435f212d35b636d863a",
+              "image": "https://cdn-images.dzcdn.net/images/cover/4c0634d4656b348d4bbf50bc571cf869/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 221,
+                "name": "Nat King Cole"
+              }
+            },
+            {
+              "id": 2645543132,
+              "title": "What Does It Take? (Live at the Blue Note Chicago)",
+              "track_number": 7,
+              "duration": 154,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/8/a/0/d8aeffe3d3f36ed2a6dc67daf99d501b.mp3?hdnea=exp=1777454476~acl=/api/1/1/d/8/a/0/d8aeffe3d3f36ed2a6dc67daf99d501b.mp3*~data=user_id=0,application_id=42~hmac=8ef08ebb2f30903eb391ae0bbada65714ff8091598977faff6cd6b9c0e6bfff7",
+              "image": "https://cdn-images.dzcdn.net/images/cover/4c0634d4656b348d4bbf50bc571cf869/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 221,
+                "name": "Nat King Cole"
+              }
+            },
+            {
+              "id": 2645543142,
+              "title": "You Stepped Out Of A Dream (Live at the Blue Note Chicago)",
+              "track_number": 8,
+              "duration": 154,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/9/0/0/090a63a208a6fa0083b39ee7a8a748b6.mp3?hdnea=exp=1777454476~acl=/api/1/1/0/9/0/0/090a63a208a6fa0083b39ee7a8a748b6.mp3*~data=user_id=0,application_id=42~hmac=00ac468b62a9036427d6e883f2a0ed8eb70c59911875bc97e5a0327d68ed4639",
+              "image": "https://cdn-images.dzcdn.net/images/cover/4c0634d4656b348d4bbf50bc571cf869/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 221,
+                "name": "Nat King Cole"
+              }
+            },
+            {
+              "id": 2645543152,
+              "title": "Exactly Like You (Live at the Blue Note Chicago)",
+              "track_number": 9,
+              "duration": 239,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/3/a/0/23a3078417e2d647edf423cbcdcc4b53.mp3?hdnea=exp=1777454476~acl=/api/1/1/2/3/a/0/23a3078417e2d647edf423cbcdcc4b53.mp3*~data=user_id=0,application_id=42~hmac=c0b9c51687f8507fd5eb5f359fb8fc6607532618501a4e41e7d5d178e72a3c0c",
+              "image": "https://cdn-images.dzcdn.net/images/cover/4c0634d4656b348d4bbf50bc571cf869/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 221,
+                "name": "Nat King Cole"
+              }
+            },
+            {
+              "id": 2645543162,
+              "title": "Sweet Lorraine (Live at the Blue Note Chicago)",
+              "track_number": 10,
+              "duration": 254,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/2/7/0/227ef381fca16d7649865690f5e87b30.mp3?hdnea=exp=1777454476~acl=/api/1/1/2/2/7/0/227ef381fca16d7649865690f5e87b30.mp3*~data=user_id=0,application_id=42~hmac=4665088a463786f063825f4de623c8d88780ba1c2287ea3228f5836531852dd3",
+              "image": "https://cdn-images.dzcdn.net/images/cover/4c0634d4656b348d4bbf50bc571cf869/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 221,
+                "name": "Nat King Cole"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 92,
+        "name": "Linkin Park",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 664052151,
+            "title": "From Zero",
+            "release_date": "2024-11-15",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 3068802251,
+              "title": "From Zero (Intro)",
+              "track_number": 1,
+              "duration": 22,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/5/c/0/d5cf83c3ed68026fbd1ed80bcd49cba6.mp3?hdnea=exp=1777454479~acl=/api/1/1/d/5/c/0/d5cf83c3ed68026fbd1ed80bcd49cba6.mp3*~data=user_id=0,application_id=42~hmac=1dbb1611d324f77f1c0dc184e1da0043dd5f740efaa1933ce9ba98a0a72f113a",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 92,
+                "name": "Linkin Park"
+              }
+            },
+            {
+              "id": 3068802261,
+              "title": "The Emptiness Machine",
+              "track_number": 2,
+              "duration": 190,
+              "explicit_lyrics": true,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/c/a/0/ccae8222bcc75edb69a47af371cfd2b0.mp3?hdnea=exp=1777454479~acl=/api/1/1/c/c/a/0/ccae8222bcc75edb69a47af371cfd2b0.mp3*~data=user_id=0,application_id=42~hmac=49c986c1d61c650d238deb740cef76a48b9c72913e41aaabb596153582be13dc",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 92,
+                "name": "Linkin Park"
+              }
+            },
+            {
+              "id": 3068802271,
+              "title": "Cut the Bridge",
+              "track_number": 3,
+              "duration": 228,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/1/3/0/0137751861a134dcb92da7c182851c9b.mp3?hdnea=exp=1777454479~acl=/api/1/1/0/1/3/0/0137751861a134dcb92da7c182851c9b.mp3*~data=user_id=0,application_id=42~hmac=f26a0a89c99174dde0419ad2fb62032427c64bf03e7b7430366c4ac57064f550",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 92,
+                "name": "Linkin Park"
+              }
+            },
+            {
+              "id": 3068802281,
+              "title": "Heavy Is the Crown",
+              "track_number": 4,
+              "duration": 167,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/b/9/0/2b9e007bb116c1b31a5d0b59a85a9971.mp3?hdnea=exp=1777454479~acl=/api/1/1/2/b/9/0/2b9e007bb116c1b31a5d0b59a85a9971.mp3*~data=user_id=0,application_id=42~hmac=1fafca477fe525e0c802a408822addaae545c25f83d8fe466d218675bf0959b4",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 92,
+                "name": "Linkin Park"
+              }
+            },
+            {
+              "id": 3068802291,
+              "title": "Over Each Other",
+              "track_number": 5,
+              "duration": 170,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/3/4/0/734985681d39b846223746dbda6e61a0.mp3?hdnea=exp=1777454479~acl=/api/1/1/7/3/4/0/734985681d39b846223746dbda6e61a0.mp3*~data=user_id=0,application_id=42~hmac=48857382f8a19e0abae222bcf28e57ccda7779f71bd2ca8eb14b2005528f2104",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 92,
+                "name": "Linkin Park"
+              }
+            },
+            {
+              "id": 3068802301,
+              "title": "Casualty",
+              "track_number": 6,
+              "duration": 140,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/7/d/0/a7ddd011496e144a3c002e332a9d2153.mp3?hdnea=exp=1777454479~acl=/api/1/1/a/7/d/0/a7ddd011496e144a3c002e332a9d2153.mp3*~data=user_id=0,application_id=42~hmac=6f83dfd23c0028e186a909628d6ec12c5c45697d9371e95f3c6a5bc5c734e6f3",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 92,
+                "name": "Linkin Park"
+              }
+            },
+            {
+              "id": 3068802311,
+              "title": "Overflow",
+              "track_number": 7,
+              "duration": 211,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/5/e/0/75e2e0a670cd5cb07846d675b3e99885.mp3?hdnea=exp=1777454479~acl=/api/1/1/7/5/e/0/75e2e0a670cd5cb07846d675b3e99885.mp3*~data=user_id=0,application_id=42~hmac=e1e06b787b0a97258f3da204c236f03f0e5248c6a1615514a24087b0e46bd253",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 92,
+                "name": "Linkin Park"
+              }
+            },
+            {
+              "id": 3068802321,
+              "title": "Two Faced",
+              "track_number": 8,
+              "duration": 183,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/2/e/0/c2ec091918d7755e028f89158c09035b.mp3?hdnea=exp=1777454479~acl=/api/1/1/c/2/e/0/c2ec091918d7755e028f89158c09035b.mp3*~data=user_id=0,application_id=42~hmac=9e6bb527c501a9759e77ee7f1216ab5299cec8d993857010ac4dd8ee6b87a769",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 92,
+                "name": "Linkin Park"
+              }
+            },
+            {
+              "id": 3068802331,
+              "title": "Stained",
+              "track_number": 9,
+              "duration": 185,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/b/9/0/1b9be631dbb8968c421a57a7dead7cb2.mp3?hdnea=exp=1777454479~acl=/api/1/1/1/b/9/0/1b9be631dbb8968c421a57a7dead7cb2.mp3*~data=user_id=0,application_id=42~hmac=50dd9b5a4f7fd0dcddc19763be3c74bafdb063685cf7a9e271fa0e758cbf6be5",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 92,
+                "name": "Linkin Park"
+              }
+            },
+            {
+              "id": 3068802341,
+              "title": "IGYEIH",
+              "track_number": 10,
+              "duration": 209,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/a/6/0/3a642cf074198e4c4093c6e7c7d83661.mp3?hdnea=exp=1777454479~acl=/api/1/1/3/a/6/0/3a642cf074198e4c4093c6e7c7d83661.mp3*~data=user_id=0,application_id=42~hmac=f9fdb7bd49cf0655e5dd1dad4f4001138fbab1df1a5b0f3b5901ebdd8bb5e0a6",
+              "image": "https://cdn-images.dzcdn.net/images/cover/1e8ffbd401303b5693226c12ee0b84fb/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 92,
+                "name": "Linkin Park"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 892,
+        "name": "Coldplay",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 650278821,
+            "title": "Moon Music",
+            "release_date": "2024-10-04",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 3024257731,
+              "title": "MOON MUSiC",
+              "track_number": 1,
+              "duration": 276,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/9/0/0/090a3af6ae522466dd9805244cafe95b.mp3?hdnea=exp=1777454481~acl=/api/1/1/0/9/0/0/090a3af6ae522466dd9805244cafe95b.mp3*~data=user_id=0,application_id=42~hmac=21af1ecbe2197cd2f2bfba4058df196e195a18522ae5e4d0310d6393ca5dd5b9",
+              "image": "https://cdn-images.dzcdn.net/images/cover/8f63a01593c329798544895109f36f8c/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 892,
+                "name": "Coldplay"
+              }
+            },
+            {
+              "id": 3024257741,
+              "title": "feelslikeimfallinginlove",
+              "track_number": 2,
+              "duration": 236,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/2/3/0/723ab5a81cd12a59d71d39a7bea18042.mp3?hdnea=exp=1777454481~acl=/api/1/1/7/2/3/0/723ab5a81cd12a59d71d39a7bea18042.mp3*~data=user_id=0,application_id=42~hmac=cef5d5e268237961f15c2b365949b27c8634ab05645b470a98eac555b13811b1",
+              "image": "https://cdn-images.dzcdn.net/images/cover/8f63a01593c329798544895109f36f8c/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 892,
+                "name": "Coldplay"
+              }
+            },
+            {
+              "id": 3024257751,
+              "title": "WE PRAY",
+              "track_number": 3,
+              "duration": 233,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/a/5/0/2a5bcbd147a3adaf3031add9c5889a45.mp3?hdnea=exp=1777454481~acl=/api/1/1/2/a/5/0/2a5bcbd147a3adaf3031add9c5889a45.mp3*~data=user_id=0,application_id=42~hmac=f309aa43d18772b0aa13a46cefd3982f8559ac8f47e0b56f12c8612432e5ee33",
+              "image": "https://cdn-images.dzcdn.net/images/cover/8f63a01593c329798544895109f36f8c/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 892,
+                "name": "Coldplay"
+              }
+            },
+            {
+              "id": 3024257761,
+              "title": "JUPiTER",
+              "track_number": 4,
+              "duration": 240,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/c/0/0/4c0b04633d7202ac7a68dd890eac76ec.mp3?hdnea=exp=1777454481~acl=/api/1/1/4/c/0/0/4c0b04633d7202ac7a68dd890eac76ec.mp3*~data=user_id=0,application_id=42~hmac=83ec2f38e7b12e262e07f82199e1c231da06f6f432c424d9cfde5d3cf00e119d",
+              "image": "https://cdn-images.dzcdn.net/images/cover/8f63a01593c329798544895109f36f8c/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 892,
+                "name": "Coldplay"
+              }
+            },
+            {
+              "id": 3024257771,
+              "title": "GOOD FEELiNGS",
+              "track_number": 5,
+              "duration": 217,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/7/b/0/17b7847463ae13658840135d1f73ae78.mp3?hdnea=exp=1777454481~acl=/api/1/1/1/7/b/0/17b7847463ae13658840135d1f73ae78.mp3*~data=user_id=0,application_id=42~hmac=af15d6550332732dc0915dbec2f83e15463f0b50c15e4d2629cbbaa07b9c0885",
+              "image": "https://cdn-images.dzcdn.net/images/cover/8f63a01593c329798544895109f36f8c/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 892,
+                "name": "Coldplay"
+              }
+            },
+            {
+              "id": 3024257781,
+              "title": "ALiEN HiTS/ALiEN RADiO",
+              "track_number": 6,
+              "duration": 369,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/3/a/0/93af84a34a54de07810ff78f74f5eab0.mp3?hdnea=exp=1777454481~acl=/api/1/1/9/3/a/0/93af84a34a54de07810ff78f74f5eab0.mp3*~data=user_id=0,application_id=42~hmac=59f9b3a80c292649622dbcd045450635c3b87c4e5448fa36a6e31be04c125f71",
+              "image": "https://cdn-images.dzcdn.net/images/cover/8f63a01593c329798544895109f36f8c/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 892,
+                "name": "Coldplay"
+              }
+            },
+            {
+              "id": 3024257801,
+              "title": "iAAM",
+              "track_number": 7,
+              "duration": 183,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/c/4/0/3c44f36157bc288cb7210d4f587fa2c9.mp3?hdnea=exp=1777454481~acl=/api/1/1/3/c/4/0/3c44f36157bc288cb7210d4f587fa2c9.mp3*~data=user_id=0,application_id=42~hmac=694a624833cbf810231cf62ba4a2959d7531873a5fe83b1017f6ade40de89c32",
+              "image": "https://cdn-images.dzcdn.net/images/cover/8f63a01593c329798544895109f36f8c/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 892,
+                "name": "Coldplay"
+              }
+            },
+            {
+              "id": 3024257811,
+              "title": "AETERNA",
+              "track_number": 8,
+              "duration": 253,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/6/0/d16b895c212fdb0a4bebe14d83e26345.mp3?hdnea=exp=1777454481~acl=/api/1/1/d/1/6/0/d16b895c212fdb0a4bebe14d83e26345.mp3*~data=user_id=0,application_id=42~hmac=ddc0aa87a4db7a3558d0b6b24ea1628aca88efd4fff2807a437d69255127ca7d",
+              "image": "https://cdn-images.dzcdn.net/images/cover/8f63a01593c329798544895109f36f8c/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 892,
+                "name": "Coldplay"
+              }
+            },
+            {
+              "id": 3024257821,
+              "title": "ALL MY LOVE",
+              "track_number": 9,
+              "duration": 222,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/1/9/0/419d2522fa9f9b57de4fa810b23b5280.mp3?hdnea=exp=1777454481~acl=/api/1/1/4/1/9/0/419d2522fa9f9b57de4fa810b23b5280.mp3*~data=user_id=0,application_id=42~hmac=1d7959d24a830929cd6bd874ab09137c0353e5441170764a310ef06fe5c80481",
+              "image": "https://cdn-images.dzcdn.net/images/cover/8f63a01593c329798544895109f36f8c/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 892,
+                "name": "Coldplay"
+              }
+            },
+            {
+              "id": 3024257831,
+              "title": "ONE WORLD",
+              "track_number": 10,
+              "duration": 407,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/c/1/0/5c1a1eb359bcc4f647b7274ddcb43c55.mp3?hdnea=exp=1777454481~acl=/api/1/1/5/c/1/0/5c1a1eb359bcc4f647b7274ddcb43c55.mp3*~data=user_id=0,application_id=42~hmac=2320ef8a8ccb10319193bcd3ce1476fa8e0977e945406375872b20a42d2b6c55",
+              "image": "https://cdn-images.dzcdn.net/images/cover/8f63a01593c329798544895109f36f8c/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 892,
+                "name": "Coldplay"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artist": {
+        "id": 1560,
+        "name": "Jacques Brel",
+        "type": "artist"
+      },
+      "albums": [
+        {
+          "album": {
+            "id": 504417351,
+            "title": "La mort (Et Dieu aussi)",
+            "release_date": "2023-11-01",
+            "record_type": "album"
+          },
+          "tracks": [
+            {
+              "id": 2513225331,
+              "title": "Oncle Archibald",
+              "track_number": 1,
+              "duration": 209,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/a/8/0/8a89de05f332c47f3c5eba15239b8715.mp3?hdnea=exp=1777454483~acl=/api/1/1/8/a/8/0/8a89de05f332c47f3c5eba15239b8715.mp3*~data=user_id=0,application_id=42~hmac=5e2fadc07664fc53b51f97431219fa77693b7dd8a95cb7c620c9cb06cd2126bf",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2b41550d1e5ec7d26481e6f9726117c4/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 671,
+                "name": "Georges Brassens"
+              }
+            },
+            {
+              "id": 2513225341,
+              "title": "La la la",
+              "track_number": 2,
+              "duration": 249,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/5/5/0/155d408a94c43490275585a344cdf0ba.mp3?hdnea=exp=1777454483~acl=/api/1/1/1/5/5/0/155d408a94c43490275585a344cdf0ba.mp3*~data=user_id=0,application_id=42~hmac=a91fb234f45c1b30c3ea91592aef2fcc8ce7e9ab4a1d9adc40662f7d2d11ca6a",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2b41550d1e5ec7d26481e6f9726117c4/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1560,
+                "name": "Jacques Brel"
+              }
+            },
+            {
+              "id": 2513225351,
+              "title": "Les quat'z'arts",
+              "track_number": 3,
+              "duration": 273,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/8/3/0/883b3268af6ee62482541e1c2fe0857e.mp3?hdnea=exp=1777454483~acl=/api/1/1/8/8/3/0/883b3268af6ee62482541e1c2fe0857e.mp3*~data=user_id=0,application_id=42~hmac=b6cab0b423234ee40f44cbb190b21473fdb1944e5747871d8ae82073f7b6cab4",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2b41550d1e5ec7d26481e6f9726117c4/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 671,
+                "name": "Georges Brassens"
+              }
+            },
+            {
+              "id": 2513225361,
+              "title": "Les funérailles d'antan",
+              "track_number": 4,
+              "duration": 237,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/d/c/0/adc23fad3e5448273ae0a209804163da.mp3?hdnea=exp=1777454483~acl=/api/1/1/a/d/c/0/adc23fad3e5448273ae0a209804163da.mp3*~data=user_id=0,application_id=42~hmac=a88f401cb86d60d40c1fbf84fe9264ed939900638cd4d371ced9f62a630796bb",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2b41550d1e5ec7d26481e6f9726117c4/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 671,
+                "name": "Georges Brassens"
+              }
+            },
+            {
+              "id": 2513225371,
+              "title": "Le tango funèbre",
+              "track_number": 5,
+              "duration": 163,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/d/c/0/cdc2eed17f56bd8d805c7579856f9c1d.mp3?hdnea=exp=1777454483~acl=/api/1/1/c/d/c/0/cdc2eed17f56bd8d805c7579856f9c1d.mp3*~data=user_id=0,application_id=42~hmac=1e29dd01f02be9334caddb8a8172b78afc8e79f5a31f49a1904cd9f96295dc67",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2b41550d1e5ec7d26481e6f9726117c4/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1560,
+                "name": "Jacques Brel"
+              }
+            },
+            {
+              "id": 2513225381,
+              "title": "L'assassinat",
+              "track_number": 6,
+              "duration": 223,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/d/9/0/0d9eb7404b9b52c0b587c65b6b3902ca.mp3?hdnea=exp=1777454483~acl=/api/1/1/0/d/9/0/0d9eb7404b9b52c0b587c65b6b3902ca.mp3*~data=user_id=0,application_id=42~hmac=d401187dc748a0a55673cdf757ddc7428c8fb0e379d9fe11d1d49de80d859b1d",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2b41550d1e5ec7d26481e6f9726117c4/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 671,
+                "name": "Georges Brassens"
+              }
+            },
+            {
+              "id": 2513225391,
+              "title": "La mort",
+              "track_number": 7,
+              "duration": 168,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/1/a/0/31a477059b4115add5098233956558e8.mp3?hdnea=exp=1777454483~acl=/api/1/1/3/1/a/0/31a477059b4115add5098233956558e8.mp3*~data=user_id=0,application_id=42~hmac=11f477e4d0643a8979d41afb95d58d58905c0958f79df4ee7f1a657b8a3a92ba",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2b41550d1e5ec7d26481e6f9726117c4/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1560,
+                "name": "Jacques Brel"
+              }
+            },
+            {
+              "id": 2513225401,
+              "title": "Bonhomme",
+              "track_number": 8,
+              "duration": 123,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/9/f/0/19f58cb3040e5f5e33064f9bad5b86c1.mp3?hdnea=exp=1777454483~acl=/api/1/1/1/9/f/0/19f58cb3040e5f5e33064f9bad5b86c1.mp3*~data=user_id=0,application_id=42~hmac=304b75fd91f8bddaa09fa6f414935c42ff871f6cf92f78f15837917b89c58918",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2b41550d1e5ec7d26481e6f9726117c4/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 671,
+                "name": "Georges Brassens"
+              }
+            },
+            {
+              "id": 2513225411,
+              "title": "L'ancêtre",
+              "track_number": 9,
+              "duration": 283,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/5/9/0/a591666713a3d0fac435a6df2f0e02e9.mp3?hdnea=exp=1777454483~acl=/api/1/1/a/5/9/0/a591666713a3d0fac435a6df2f0e02e9.mp3*~data=user_id=0,application_id=42~hmac=432cc9bae41ba8cd066875592d8f1a2ab9f011ca77dd04a99d5295bc147d7816",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2b41550d1e5ec7d26481e6f9726117c4/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 671,
+                "name": "Georges Brassens"
+              }
+            },
+            {
+              "id": 2513225421,
+              "title": "Seul",
+              "track_number": 10,
+              "duration": 207,
+              "explicit_lyrics": false,
+              "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/7/0/2e7d8881280bbf6acca7511e649506c6.mp3?hdnea=exp=1777454483~acl=/api/1/1/2/e/7/0/2e7d8881280bbf6acca7511e649506c6.mp3*~data=user_id=0,application_id=42~hmac=824d94a52b3e9267eb6dd7c173868b72e7b278715dcd35def2b4d5eb9e98d4be",
+              "image": "https://cdn-images.dzcdn.net/images/cover/2b41550d1e5ec7d26481e6f9726117c4/500x500-000000-80-0-0.jpg",
+              "artist": {
+                "id": 1560,
+                "name": "Jacques Brel"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
