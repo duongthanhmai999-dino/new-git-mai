@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Generated seed/raw data for demos (Spotify JSON, etc.)
+data/spotify/raw/
+data/deezer/raw/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
